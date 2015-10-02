@@ -2,6 +2,7 @@ var listaReceita = {
     "receitas":
     [
         {
+            "id": 01,
             "nome": "Salada",
             "ingredientes": [
                 "Couve",
@@ -21,6 +22,7 @@ var listaReceita = {
         },
         
         {
+            "id": 02, 
             "nome": "Acelga com Mussarela",
             "ingredientes": [
                 "Acelga",
@@ -36,6 +38,7 @@ var listaReceita = {
         },
         
         {
+            "id": 03, 
             "nome": "Anéis de Cebola",
             "ingredientes": [
                 "Cebola",
@@ -57,6 +60,7 @@ var listaReceita = {
         },
         
         {
+            "id": 04, 
             "nome": "Banana Caramelada",
             "ingredientes": [
                 "Banana",
@@ -74,6 +78,7 @@ var listaReceita = {
         },
         
         { 
+            "id": 05,
             "nome": "Batata Assada Recheada com Salsicha e Requeijão",
             "ingredientes": [
                 "Batata",
@@ -95,6 +100,7 @@ var listaReceita = {
         },
         
         {
+            "id": 06, 
             "nome": "Berinjela Rápida em Rodelas",
             "ingredientes": ["Berinjela"],
             "totalIngri": [
@@ -110,6 +116,7 @@ var listaReceita = {
         },
         
         {
+            "id": 07, 
             "nome": "Cenouras Rápidas",
             "ingredientes": [
                 "Cenoura",
@@ -132,6 +139,7 @@ var listaReceita = {
         },
         
         {
+            "id": 08,
             "nome": "Couve Flor à Doré",
             "ingredientes": [
                 "Pimenta",
@@ -156,6 +164,7 @@ var listaReceita = {
         },
         
         {
+            "id": 09, 
             "nome": "Couve Flor Gratinada",
             "ingredientes": [
                 "Couve",
@@ -181,6 +190,7 @@ var listaReceita = {
         },
         
         {
+            "id": 10, 
             "nome": "Ensopado de Ovos",
             "ingredientes": [
                 "Cebola",
@@ -205,6 +215,7 @@ var listaReceita = {
         },
         
         {
+            "id": 11, 
             "nome": "Farofa de Bacon com Azeitona",
             "ingredientes": [
                 "Bacon",
@@ -229,6 +240,7 @@ var listaReceita = {
         },
         
         {
+            "id": 12, 
             "nome": "Farofa de Banana",
             "ingredientes": [
                 "Banana",
@@ -251,6 +263,7 @@ var listaReceita = {
         },
         
         {
+            "id": 13, 
             "nome": "Farofa Rápida de Calabresa",
             "ingredientes": [
                 "Calabresa",
@@ -271,6 +284,7 @@ var listaReceita = {
         },
         
         {
+            "id": 14, 
             "nome": "Farofa Saldável",
             "ingredientes": [
                 "Cebola",
@@ -294,6 +308,7 @@ var listaReceita = {
         },
         
         {
+            "id": 15, 
             "nome": "Folha de Couve Flor Refogada",
             "ingredientes": ["Couve"],
             "totalIngri": [
@@ -308,6 +323,7 @@ var listaReceita = {
         },
         
         {
+            "id": 16, 
             "nome": "Fritada com Bacon",
             "ingredientes": [
                 "Bacon",
@@ -329,6 +345,7 @@ var listaReceita = {
         },
         
         {
+            "id": 17, 
             "nome": "Fritada de Calabresa",
             "ingredientes": [
                 "Calabresa",
@@ -354,6 +371,7 @@ var listaReceita = {
         },
         
         {
+            "id": 18, 
             "nome": "Lanche Rápido",
             "ingredientes": [
                 "Sardinha",
@@ -379,6 +397,7 @@ var listaReceita = {
         },
         
         {
+            "id": 19, 
             "nome": "Limonada Suíça com Leite Condensado",
             "ingredientes": ["Limao"],
             "totalIngri": [
@@ -392,6 +411,7 @@ var listaReceita = {
         },
         
         {
+            "id": 20, 
             "nome": "Maionese de Atum",
             "ingredientes": [
                 "Batata",
@@ -418,6 +438,7 @@ var listaReceita = {
         },
         
         {
+            "id": 21, 
             "nome": "Milk Shake de Morango",
             "ingredientes": [
                 "Sorvete",
@@ -435,6 +456,7 @@ var listaReceita = {
         },
         
         {
+            "id": 22, 
             "nome": "Omelete de Liquidificador",
             "ingredientes": [
                 "Pao",
@@ -456,6 +478,7 @@ var listaReceita = {
         },
         
         {
+            "id": 23, 
             "nome": "Omelete de Salsicha",
             "Ingredientes": [
                 "Ovo",
@@ -474,6 +497,7 @@ var listaReceita = {
         },
         
         {
+            "id": 24, 
             "nome": "Omelete Fácil",
             "ingredientes": ["Ovo"],
             "totalIngri": [
@@ -485,6 +509,7 @@ var listaReceita = {
         },
         
         {
+            "id": 25, 
             "nome": "Salada de Legumes",
             "ingredientes": [
                 "Alface",
@@ -513,6 +538,7 @@ var listaReceita = {
         },
         
         {
+            "id": 26, 
             "nome": "Suflê de Milho com Queijo Parmesão",
             "ingredientes": [
                 "Milho",

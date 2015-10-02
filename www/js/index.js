@@ -60,13 +60,12 @@ function pesquisa (ingredientes,tamanhoOl) {
                         numIngr = 0;
                         alert("Nenhuma receita encontrada!");
                     }else{
-                        alert("Receita(s) encontrada(s)!");
+                        Materialize.toast('Receita(s) Encontrada(s)!', 4000);
                         var listItem = tamanhoOl.length;
                         for(var m = 0; m < listItem; m++){
                             var listado = tamanhoOl[m].childNodes[0];
                             //if(listado.innerHTML != item){
-                                a.href = receitas[i].link;
-                                a.setAttribute('href', "../www/receitas.html");
+                                a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
                                 a.appendChild(item);
                                 li.appendChild(a);
                                 ol.appendChild(li);
