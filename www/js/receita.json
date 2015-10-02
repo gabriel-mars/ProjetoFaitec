@@ -1,13 +1,14 @@
 var listaReceita = {
     "receitas":
-    [
+    [        
         {
-            "id": 01,
-            "nome": "Salada",
+            "id": 02, 
+            "nome": "Acelga com Mussarela",
             "ingredientes": [
-                "Couve",
-                "Milho",
-                "Tomate"
+                "Acelga",
+                "Limao",
+                "Ovo",
+                "Mussarela"
             ],
             "totalIngri": [
                 "2 maços de acelga picados",
@@ -18,22 +19,8 @@ var listaReceita = {
                 "Margarina para untar",
                 "250g de queijo mussarela fatiado"  
             ],
-            "preparo": "Corte tudo e misture!"
-        },
-        
-        {
-            "id": 02, 
-            "nome": "Acelga com Mussarela",
-            "ingredientes": [
-                "Acelga",
-                "Limao",
-                "Ovo",
-                "Mussarela"
-            ],
             "preparo": "Em uma panela, cozinhe a acelga em água fervente com sal e o suco de limão por 5 minutos. Escorra bem.Na mesma panela, em fogo médio, aqueça 2 colheres (sopa) da margarina e refogue a acelga escorrida por 2 minutos.Tempere com pimenta e transfira, junto com os ovos cozidos e picados, para um refratário untado.Cubra com a mussarela fatiada, o restante da margarina em pedacinhos.Leve ao forno alto (200C), preaquecido, por 10 minutos para gratinar.Decore como desejar e sirva.",
-            "dica": "Para ficar mais cremoso, antes de colocar a mussarela, espalhe 1 xícara (chá) de molho branco ou de requeijão cremoso e só então cubra com a mussarela e leve ao forno.",
-            "rendimento": "6 porções",
-            "tempo": "50 minutos"
+            "rendimento": "6 porções"
         },
         
         {
@@ -109,9 +96,7 @@ var listaReceita = {
                 "4 colheres (sopa) de azeite de oliva"  
             ],
             "preparo": "Deixe as rodelas de berinjela de molho em 1 litro de água e 1 colher (chá) de sal por 15 minutos. Deixe escorrer em uma peneira por 30 minutos, para eliminar o excesso de líquido. Enxugue-as em papel absorvente e passe-as duas vezes pela farinha de trigo previamente  misturada ao Caldo SAZÓN e 1 pitada de sal. Em uma frigideira grande, aqueça metade do azeite em fogo alto e frite a berinjela, aos poucos, virando na metade do tempo, por 3 minutos, ou até dourarem. Escorra em papel absorvente e sirva em seguida.",
-            "dica": "Sirva como petisco.",
-            "rendimento": "4 porções.",
-            "tempo": "60 minutos."
+            "rendimento": "4 porções."
         },
         
         {
@@ -156,8 +141,7 @@ var listaReceita = {
                 "Óleo para fritar"
             ],
             "preparo": "Ferva a água em uma panela grande com sal e o caldo de legumes. Corte a couve flor em pequenos buquês, coloque na panela com a água fervendo e cozinhe por 5 minutos. Escorra e deixe esfriar. Misture o ovo com o leite e adicione o fermento. Junte a farinha, o sal, pimenta e misture. Passe os pedaços da couve flor pela mistura e frite no óleo quente até dourar. Escorra sobre papel toalha e sirva.",
-            "rendimento": "4 porções",
-            "tempo": "40 minutos"
+            "rendimento": "4 porções"
         },
         
         {
@@ -232,8 +216,7 @@ var listaReceita = {
                 "Folhas de salsinha para decorar",
             ],
             "preparo": "Em uma panela, em fogo médio, aqueça o óleo, frite o bacon e a cebola por 5 minutos ou até que dourem. Junte o alho, as azeitonas e refogue por mais 2 minutos. Acrescente os ovos batidos, o sal, o cheiro verde e cozinhe por 5 minutos. Despeje a farinha e cozinhe por mais cerca de 3 minutos. Decore com salsinha e sirva.",
-            "rendimento": "4 porções",
-            "tempo": "20 minutos"
+            "rendimento": "4 porções"
         },
         
         {
@@ -297,9 +280,7 @@ var listaReceita = {
                 "1 sachê de Caldo SAZÓN Costela"
             ],
             "preparo": "Em uma frigideira média, coloque o azeite e leve ao fogo alto para aquecer. Junte a cebola e refogue por 2 minutos. Acrescente a farinha de milho e a aveia, e cozinhe, mexendo sempre, por 3 minutos, ou até dourar. Adicione a cenoura e as azeitonas, tempere com o Caldo SAZÓN e retire do fogo. Sirva em seguida.",
-            "dica": "A cenoura e as azeitonas são colocadas no final do preparo pra não murcharem.",
-            "rendimento": "4 porções",
-            "tempo": "10 minutos"
+            "rendimento": "4 porções"
         },
         
         {
@@ -313,7 +294,6 @@ var listaReceita = {
                 "Sal a gosto"
             ],
             "preparo": "Frite o alho no óleo até dourar. Junte as folhas de couve flor picadas e o sal. Refogue por 2 minutos.",
-            "dica": "Sirva como acompanhamento de carner ou aves. Esta receita é ideal para se aproveiar as folhas de couve flor que, em geral, são desperdiçados apesar de serem saborosas e nutritivas.",
             "rendimento": "4 porções"
         },
         
@@ -361,8 +341,7 @@ var listaReceita = {
                 "Sal e pimenta do reino a gosto"
             ],
             "preparo": "Em uma frigideira, coloque o azeite, a linguiça, a cebola, o alho e frite até dourar. Junte o tomate e cozinhe por 10 minutos. Em uma tigela, bata os ovos, o parmesão, o manjericão, sal e pimenta com um garfo. Despeje sobre o refogado e frite dos dois lados até dourar. Decore como desejar e sirva em seguida.",
-            "rendimento": "6 porções",
-            "tempo": "15 minutos"
+            "rendimento": "6 porções"
         },
         
         {
@@ -485,7 +464,6 @@ var listaReceita = {
                 "3 salsichas aferventadas e cortadas em rodelas"
             ],
             "preparo": "Bata bem os ovos, tempere com sal e salsa. Em uma frigideira média, aqueça o óleo, espalhe a mistura de ovos, tampe e deixe cozinhar no fogo baixo durante cinco minutos ou até as bordas dourarem. Vire delicadamente e doure do outro lado. Ainda na frigideira, espalhe o requeijão e as rodelas de salsicha. Dobre a omelete e sirva em seguida.",
-            "dica": "Se desejar, substitua o requeijão por fatias de mussarela.",
             "rendimento": "2 porções."
         },
         
@@ -498,7 +476,8 @@ var listaReceita = {
                 "1/2 xícara (café) de água",
                 "1 pitada de sal"      
             ],
-            "preparo": "Bata os ovos e a água e o sal no liquidificador. Unte a frigideira com margarina. Coloque os ovos e deixe cozinhar, depois, coloque o recheio e vire o omelete."
+            "preparo": "Bata os ovos e a água e o sal no liquidificador. Unte a frigideira com margarina. Coloque os ovos e deixe cozinhar, depois, coloque o recheio e vire o omelete.",
+            "rendimento": "1 porção"
         },
         
         {
