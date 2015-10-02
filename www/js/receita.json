@@ -26,7 +26,6 @@ var listaReceita = {
             "nome": "Acelga com Mussarela",
             "ingredientes": [
                 "Acelga",
-                "Pimenta",
                 "Limao",
                 "Ovo",
                 "Mussarela"
@@ -120,8 +119,7 @@ var listaReceita = {
             "nome": "Cenouras Rápidas",
             "ingredientes": [
                 "Cenoura",
-                "Cebola",
-                "Pimenta"
+                "Cebola"
             ],
             "totalIngri": [
                 "1/2kg de cenoura média",
@@ -142,7 +140,6 @@ var listaReceita = {
             "id": 08,
             "nome": "Couve Flor à Doré",
             "ingredientes": [
-                "Pimenta",
                 "Couve",
                 "Ovo",
                 "Leite"
@@ -245,8 +242,7 @@ var listaReceita = {
             "ingredientes": [
                 "Banana",
                 "Cebola",
-                "Bacon",
-                "Pimenta"
+                "Bacon"
             ],
             "totalIngri": [
                 "Banana da terra madura em cubos",
@@ -268,8 +264,7 @@ var listaReceita = {
             "ingredientes": [
                 "Calabresa",
                 "Cebola",
-                "Milho",
-                "Pimenta"
+                "Milho"
             ],
             "totalIngri": [
                 "4 colheres (sopa) de margarina",
@@ -376,7 +371,6 @@ var listaReceita = {
             "ingredientes": [
                 "Sardinha",
                 "Maionese",
-                "Pimenta",
                 "Pao",
                 "Mussarela",
                 "Tomate"
@@ -419,8 +413,7 @@ var listaReceita = {
                 "Vagem",
                 "Cebola",
                 "Atum",
-                "Maionese",
-                "Pimenta"
+                "Maionese"
             ],
             "totalIngri": [
                 "1/2kg de batatas",
@@ -480,7 +473,7 @@ var listaReceita = {
         {
             "id": 23, 
             "nome": "Omelete de Salsicha",
-            "Ingredientes": [
+            "ingredientes": [
                 "Ovo",
                 "Salsicha"
             ],

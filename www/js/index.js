@@ -42,7 +42,7 @@ function pesquisa (ingredientes,tamanhoOl) {
             for (var k = 0; k <ingredientes.length; k++){
                 //comparar com a busca
                 if (ingredientes[k] == receitas[i].ingredientes[j]) {
-                    numIngr = numIngr+1;
+                    numIngr = numIngr + 1;
                 }
                 if (numIngr == receitas[i].ingredientes.length){
                     // criar item link e li
@@ -69,7 +69,7 @@ function pesquisa (ingredientes,tamanhoOl) {
                                 a.appendChild(item);
                                 li.appendChild(a);
                                 ol.appendChild(li);
-                                numerodeReceitas = parseInt(numerodeReceitas+1, 10);
+                                numerodeReceitas = parseInt(numerodeReceitas +1, 10);
                                 numIngr = 0;
                             //}
                         }
