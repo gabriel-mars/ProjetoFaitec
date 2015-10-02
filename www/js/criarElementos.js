@@ -9,5 +9,15 @@ function getHash(){
 }
 
 function criarElementos(id){
-    console.log(id);   
+    var div = document.getElementById('container');
+    var receita = listaReceita.receitas;
+    
+    for(var i = 0; i < receita.length; i++){
+       if(receita[i].id == id){
+           var titulo = receita[i].nome;
+           var h1 = document.createElement('h1').titulo;
+           div.appendChild(h1);
+           return(receita[i]);
+       }
+    }  
 }
