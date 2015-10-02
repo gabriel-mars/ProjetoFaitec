@@ -14,8 +14,9 @@ function criarElementos(id){
     
     for(var i = 0; i < receita.length; i++){
        if(receita[i].id == id){
-           var titulo = receita[i].nome;
-           var h1 = document.createElement('h1').titulo;
+           var titulo = document.createTextNode(receita[i].nome);
+           var h1 = document.createElement('h1');
+           h1.appendChild(titulo);
            div.appendChild(h1);
            return(receita[i]);
        }
