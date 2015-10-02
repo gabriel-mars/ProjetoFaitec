@@ -60,7 +60,7 @@ function pesquisa (ingredientes,tamanhoOl) {
                         numIngr = 0;
                         alert("Nenhuma receita encontrada!");
                     }else{
-                        Materialize.toast('Receita(s) Encontrada(s)!', 4000);
+                        Materialize.toast('Receita(s) Encontrada(s)!', 2000);
                         var listItem = tamanhoOl.length;
                         for(var m = 0; m < listItem; m++){
                             var listado = tamanhoOl[m].childNodes[0];
