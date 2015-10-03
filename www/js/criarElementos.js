@@ -10,37 +10,37 @@ function getHash(){
 
 function criarElementos(id){
     var div = document.getElementById('container');
-    var receita = listaReceita.receitas;
+    var receitas = listaReceita.receitas;
     
-    for(var i = 0; i < receita.length; i++){
-       if(receita[i].id == id){
-                      
-           var titulo = document.createTextNode(receita[i].nome);
-           var prep = document.createTextNode(receita[i].preparo);
-           var rendi = document.createTextNode(receita[i].rendimento);
-           var ingri = document.createTextNode(receita[i].ingredientes);
-           var total = document.createTextNode(receita[i].totalIngri);
-           
-           for(var j = 0; j < ingri.length; j++){
-               var linha = document.createTextNode(ingri[i]);
-           }
+    for(var i = 0; i < receitas.length; i++){
+       var receita = receitas[i];
+       if(receita.id == id){
+           var titulo = document.createTextNode(receita.nome);
+           var h1 = document.createElement('h1');
+           h1.appendChild(titulo);
+           div.appendChild(h1);
            
            var ol = document.createElement('ol');
-           var p1 = document.createElement('p');
-           var p2 = document.createElement('p');
-           var h1 = document.createElement('h1');
-           
-           h1.appendChild(titulo);
-           ol.appendChild(linha);
-           p1.appendChild(prep);
-           p2.appendChild(rendi);
-           
-           div.appendChild(h1);
+           for(var j = 0; j <receita.totalIngri.length; j++){
+               var ingrediente = receita.totalIngri[j];
+               var text = document.createTextNode(ingrediente);
+               var li = document.createElement('li');
+               li.appendChild(text);
+               ol.appendChild(li);
+           }
            div.appendChild(ol);
+           
+           var prep = document.createTextNode(receita.preparo);
+           var p1 = document.createElement('p');
+           p1.appendChild(prep);
            div.appendChild(p1);
+           
+           var rendi = document.createTextNode(receita.rendimento);
+           var p2 = document.createElement('p');
+           p2.appendChild(rendi);
            div.appendChild(p2);
            
-           return(receita[i]);
+           break;
        }
     }  
 }
