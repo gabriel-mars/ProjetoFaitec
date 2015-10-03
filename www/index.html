@@ -1,85 +1,14 @@
-<!DOCTYPE html>
 <html>
-    
-    <head>
-        <meta charset="utf-8" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
-        <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <title>Receitas rápidas</title>
-    </head>
-    
-    <body>
-        <nav>
-            <div class="nav-wrapper cor tamanho-topo"> 
-              <span class="font-topo"><a href="#" class="brand-logo cente">Receitas Rápidas</a> </span>
-            </div>
-        </nav>
-        <div class="container" class="flow-text">
-            <div class="paragrafo col s12">
-                <p id="paragrafo1" class="font-paragrafo">Marque os ingredientes que você tem e escolha sua receita para o cardápio de hoje!</p>
-            </div>       
-                    <div class="section" id="check">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Página Inicial</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	</head>
 
-                        <div class="section-div-um">
-                            <ul>
-                                <li class="font-input"><input type="checkbox" value="Acelga" name="ingrediente" id="ingrediente1"><label for="ingrediente1">Acelga</label></li>
-                                <li class="font-input"><input type="checkbox" value="Agriao" name="ingrediente" id="ingrediente2"><label for="ingrediente2">Agrião</label></li>
-                                <li class="font-input"><input type="checkbox" value="Alface" name="ingrediente" id="ingrediente3"><label for="ingrediente3">Alface</label></li>
-                                <li class="font-input"><input type="checkbox" value="Atum" name="ingrediente" id="ingrediente4"><label for="ingrediente4">Atum</label></li>
-                                <li class="font-input"><input type="checkbox" value="Aveia" name="ingrediente" id="ingrediente5"><label for="ingrediente5">Aveia</label></li>
-                                <li class="font-input"><input type="checkbox" value="Azeitona" name="ingrediente" id="ingrediente6"><label for="ingrediente6">Azeitona</label></li>
-                                <li class="font-input"><input type="checkbox" value="Bacon" name="ingrediente" id="ingrediente7"><label for="ingrediente7">Bacon</label></li>
-                                <li class="font-input"><input type="checkbox" value="Banana" name="ingrediente" id="ingrediente8"><label for="ingrediente8">Banana</label></li>
-                                <li class="font-input"><input type="checkbox" value="Batata" name="ingrediente" id="ingrediente9"><label for="ingrediente9">Batata</label></li>
-                                <li class="font-input"><input type="checkbox" value="Berinjela" name="ingrediente" id="ingrediente10"><label for="ingrediente10">Berinjela</label></li>
-                                <li class="font-input"><input type="checkbox" value="Beterraba" name="ingrediente" id="ingrediente11"><label for="ingrediente11">Beterraba</label></li>
-                                <li class="font-input"><input type="checkbox" value="Brocolis" name="ingrediente" id="ingrediente12"><label for="ingrediente12">Brócolis</label></li>
-                                <li class="font-input"><input type="checkbox" value="Calabresa" name="ingrediente" id="ingrediente13"><label for="ingrediente13">Calabresa</label></li>
-                                <li class="font-input"><input type="checkbox" value="Cebola" name="ingrediente" id="ingrediente14"><label for="ingrediente14">Cebola</label></li>
-                                <li class="font-input"><input type="checkbox" value="Cenoura" name="ingrediente" id="ingrediente15"><label for="ingrediente15">Cenoura</label></li>
-                                <li class="font-input"><input type="checkbox" value="Couve" name="ingrediente" id="ingrediente16"><label for="ingrediente16">Couve - Flor</label></li>
-                                <li class="font-input"><input type="checkbox" value="Leite" name="ingrediente" id="ingrediente17"><label for="ingrediente17">Leite</label></li>
-                            </ul>
-                        </div>
-                        <div class="section-div-dois">
-                            <ul>
-                                <li class="font-input"><input type="checkbox" value="Limao" name="ingrediente" id="ingrediente18"><label for="ingrediente18">Limão</label></li>
-                                <li class="font-input"><input type="checkbox" value="Maionese" name="ingrediente" id="ingrediente19"><label for="ingrediente19">Maionese</label></li>
-                                <li class="font-input"><input type="checkbox" value="Mel" name="ingrediente" id="ingrediente20"><label for="ingrediente20">Mel</label></li>
-                                <li class="font-input"><input type="checkbox" value="Milho" name="ingrediente" id="ingrediente21"><label for="ingrediente21">Milho</label></li>
-                                <li class="font-input"><input type="checkbox" value="Morango" name="ingrediente" id="ingrediente22"><label for="ingrediente22">Morango</label></li>
-                                <li class="font-input"><input type="checkbox" value="Mussarela" name="ingrediente" id="ingrediente23"><label for="ingrediente23">Mussarela</label></li>
-                                <li class="font-input"><input type="checkbox" value="Ovo" name="ingrediente" id="ingrediente24"><label for="ingrediente24">Ovo</label></li>
-                                <li class="font-input"><input type="checkbox" value="Pimentao" name="ingrediente" id="ingrediente26"><label for="ingrediente26">Pimentão</label></li>
-                                <li class="font-input"><input type="checkbox" value="Pao" name="ingrediente" id="ingrediente27"><label for="ingrediente27">Pão</label></li>
-                                <li class="font-input"><input type="checkbox" value="Queijo" name="ingrediente" id="ingrediente28"><label for="ingrediente28">Queijo Parmesão</label></li>
-                                <li class="font-input"><input type="checkbox" value="Requeijao" name="ingrediente" id="ingrediente29"><label for="ingrediente29">Requeijão</label></li>
-                                <li class="font-input"><input type="checkbox" value="Rucula" name="ingrediente" id="ingrediente30"><label for="ingrediente30">Rúcula</label></li>
-                                <li class="font-input"><input type="checkbox" value="Salsicha" name="ingrediente" id="ingrediente31"><label for="ingrediente31">Salsicha</label></li>
-                                <li class="font-input"><input type="checkbox" value="Sardinha" name="ingrediente" id="ingrediente32"><label for="ingrediente32">Sardinha</label></li>
-                                <li class="font-input"><input type="checkbox" value="Sorvete" name="ingrediente" id="ingrediente33"><label for="ingrediente33">Sorvete</label></li>
-                                <li class="font-input"><input type="checkbox" value="Tomate" name="ingrediente" id="ingrediente34"><label for="ingrediente34">Tomate</label></li>
-                                <li class="font-input"><input type="checkbox" value="Vagem" name="ingrediente" id="ingrediente35"><label for="ingrediente35">Vagem</label></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="box-botao">
-                        <p id="buscar"><button id="search_button" class="font-botao">Buscar Receitas</button></p>
-                    </div>
-                    <p>Total de receitas encontradas:</p>
-                    <ol id="ol"></ol>
-                    <p id="p1"></p>
+	<body id="inicial">
+		<div id="central">
+            <input type="button" onclick="location.href = 'page02.html';" value="Próxima Página" />
+            <img class="imagem_inicial_centraliza" src="imagem/imagem.jpg" />
         </div>
-        <!-- Javascript imports -->
-        <!-- app specific imports -->
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/receita.json"></script>
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-
+	</body>
 </html>

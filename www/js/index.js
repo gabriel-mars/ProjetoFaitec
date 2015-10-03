@@ -23,7 +23,7 @@ function validaCheck(ingri,ingredientes,tamanhoOl){
     }
     
     if (naoChecados == ingri.length){
-        alert ("Selecione pelo menos um item.");
+        Materialize.toast('Selecione pelo menos um item!', 2000);
         return;
     }    
     pesquisa (ingredientes,tamanhoOl);
