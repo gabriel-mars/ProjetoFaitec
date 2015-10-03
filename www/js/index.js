@@ -50,16 +50,29 @@ function pesquisa (ingredientes,tamanhoOl) {
                     var nomeItem = receitas[i].nome;
                     var item = document.createTextNode(nomeItem);
                     var li = document.createElement("li");
-                    Materialize.toast('Receita(s) Encontrada(s)!', 2000);
-                                        
-                    for(var m = 0; m < listItem; m++){
-                        var listado = tamanhoOl[m].childNodes[0];
-                        a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
+                    
+                    if(tamanhoOl == 0){
+                        a.href = receitas[i].link;
                         a.appendChild(item);
-                        li.appendChild(a);
-                        ol.appendChild(li);
-                        numerodeReceitas = parseInt(numerodeReceitas +1, 10);
+                        li.appendChild (a);
+                        ol.appendChild (li);
+                        numerodeReceitas = parseInt(numerodeReceitas+1, 10);
                         numIngr = 0;
+                        alert("Nenhuma receita encontrada!");
+                    }else{
+                        Materialize.toast('Receita(s) Encontrada(s)!', 2000);
+                        var listItem = tamanhoOl.length;
+                        for(var m = 0; m < listItem; m++){
+                            var listado = tamanhoOl[m].childNodes[0];
+                            //if(listado.innerHTML != item){
+                                a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
+                                a.appendChild(item);
+                                li.appendChild(a);
+                                ol.appendChild(li);
+                                numerodeReceitas = parseInt(numerodeReceitas +1, 10);
+                                numIngr = 0;
+                            //}
+                        }
                     }
                 }
             }
