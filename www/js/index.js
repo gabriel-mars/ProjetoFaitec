@@ -1,4 +1,4 @@
-var numerodeReceitas = [0];
+var numerodeReceitas = [];
 function principal() {
     var botao = document.getElementById("search_button");
     botao.onclick = function() {
@@ -52,18 +52,18 @@ function pesquisa (ingredientes,tamanhoOl) {
                     var li = document.createElement("li");
                     
                     if(tamanhoOl == 0){
-                        a.href = receitas[i].link;
+                        /*a.href = receitas[i].link;
                         a.appendChild(item);
                         li.appendChild (a);
-                        ol.appendChild (li);
-                        numerodeReceitas = parseInt(numerodeReceitas+1, 10);
-                        numIngr = 0;
+                        ol.appendChild (li);*/
+                        //numerodeReceitas = parseInt(numerodeReceitas+1, 10);
+                        //numIngr = 0;
                         alert("Nenhuma receita encontrada!");
                     }else{
                         Materialize.toast('Receita(s) Encontrada(s)!', 2000);
                         var listItem = tamanhoOl.length;
                         for(var m = 0; m < listItem; m++){
-                            var listado = tamanhoOl[m].childNodes[0];
+                            //var listado = tamanhoOl[m].childNodes[0];
                             //if(listado.innerHTML != item){
                                 a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
                                 a.appendChild(item);
