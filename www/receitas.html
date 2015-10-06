@@ -7,22 +7,27 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
         <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/styleReceita.css" />
         <title>Receitas rápidas</title>
     </head>
     
     <body>
         <nav>
             <div class="nav-wrapper cor tamanho-topo"> 
-              <span class="font-topo"><a href="index.html" class="brand-logo cente">Receitas Rápidas</a> </span>
+               <span class="font-topo"><a href="index.html" class="brand-logo cente">Receitas Rápidas</a> </span>
             </div>
         </nav>
         
         <div id="container"> 
         </div>
-        <input type="button" onclick="location.href = 'escolha.html';" value="Selecionar Ingredientes" />
-        <input type="button" onclick="location.href = 'page02.html';" value="Apresentação" />
-        <input type="button" onclick="location.href = 'last.html';" value="Próxima Página" />
+        
+        <div class="corpo-botao">    
+            <input class="botao" type="button" onclick="location.href = 'escolha.html';" value="Selecionar Ingredientes" />
+            <input class="botao" type="button" onclick="location.href = 'page02.html';" value="Apresentação" />
+            <input class="botao" type="button" onclick="location.href = 'last.html';" value="Próxima Página" />
+        </div>
+        
+        
         
         <script type="text/javascript" src="js/receita.json"></script>
         <script type="text/javascript" src="js/criarElementos.js"></script>
