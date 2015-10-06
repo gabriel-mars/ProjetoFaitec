@@ -34,6 +34,7 @@ function validaCheck(ingri,ingredientes,tamanhoOl){
 function pesquisa (ingredientes,tamanhoOl) {
     var receitas = listaReceita.receitas;
     var ol = document.getElementById("ol");
+    var link = 0;
       
 // for para procurar as receitas    
     for (var i=0; i < receitas.length; i++) {
@@ -51,6 +52,7 @@ function pesquisa (ingredientes,tamanhoOl) {
                     var nomeItem = receitas[i].nome;
                     var item = document.createTextNode(nomeItem);
                     var li = document.createElement("li");
+                    link++;
                     
                     if(tamanhoOl == 0){
                         /*a.href = receitas[i].link;
@@ -59,26 +61,26 @@ function pesquisa (ingredientes,tamanhoOl) {
                         ol.appendChild (li);*/
                         //numerodeReceitas = parseInt(numerodeReceitas+1, 10);
                         //numIngr = 0;
-                        alert("Nenhuma receita encontrada!");
                     }else{
                         var listItem = tamanhoOl.length;
                         for(var m = 0; m < listItem; m++){
-                            //var listado = tamanhoOl[m].childNodes[0];
-                            //if(listado.innerHTML != item){
-                                a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
-                                a.appendChild(item);
-                                li.appendChild(a);
-                                ol.appendChild(li);
-                                numerodeReceitas = parseInt(numerodeReceitas +1, 10);
-                                numIngr = 0;
-                            //}
+                            a.setAttribute('href', "../www/receitas.html#" + receitas[i].id);
+                            a.appendChild(item);
+                            li.appendChild(a);
+                            ol.appendChild(li);
+                            numerodeReceitas = parseInt(numerodeReceitas +1, 10);
+                            numIngr = 0;                    
                         }
                     }
                 }
             }
         }
     }
-    Materialize.toast('Receita(s) Encontrada(s)!', 2000);
+    if(link != 0){
+        Materialize.toast('Receita(s) Encontrada(s)!', 2000);
+    }else{
+        Materialize.toast('Nenhuma receita encontrada!', 2000);   
+    }
 }
 
 //função para remover os filhos do ol
