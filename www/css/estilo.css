@@ -74,5 +74,13 @@
     width: 70%;
     margin:0 auto;
     font-family: 'boogalooregular';
-    font-size: 10px;
+    font-size: 25px;
+}
+.corpo-botao{
+   width: 100%;
+   text-align: center;
+}
+.botao{
+    font-family: 'boogalooregular';
+   font-size:20px;
 }
