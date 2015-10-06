@@ -2,10 +2,11 @@ var numerodeReceitas = [];
 function principal() {
     var botao = document.getElementById("search_button");
     botao.onclick = function() {
-       var ingri = document.getElementsByName("ingrediente");
-       var tamanhoOl = document.getElementById("check").children;
+        clearField();
+        var ingri = document.getElementsByName("ingrediente");
+        var tamanhoOl = document.getElementById("check").children;
         var ingredientes = [];
-       validaCheck(ingri,ingredientes,tamanhoOl);
+        validaCheck(ingri,ingredientes,tamanhoOl);
         
         event.preventDefault();
         return false;
@@ -60,7 +61,6 @@ function pesquisa (ingredientes,tamanhoOl) {
                         //numIngr = 0;
                         alert("Nenhuma receita encontrada!");
                     }else{
-                        Materialize.toast('Receita(s) Encontrada(s)!', 2000);
                         var listItem = tamanhoOl.length;
                         for(var m = 0; m < listItem; m++){
                             //var listado = tamanhoOl[m].childNodes[0];
@@ -78,7 +78,15 @@ function pesquisa (ingredientes,tamanhoOl) {
             }
         }
     }
-    document.getElementById("p1").innerHTML = numerodeReceitas;    
+    Materialize.toast('Receita(s) Encontrada(s)!', 2000);
+}
+
+//função para remover os filhos do ol
+function clearField(){
+    var elemento = document.getElementById('ol');
+    while(elemento.hasChildNodes()){
+        elemento.removeChild(elemento.lastChild);
+    }
 }
 
 principal ();
