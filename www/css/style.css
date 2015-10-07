@@ -76,3 +76,10 @@
 .tamanho-topo{
     padding-top: auto;
 }
+
+.scroll{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
