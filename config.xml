@@ -5,6 +5,7 @@
   <author/>
   <access origin="*"/>
   <content src="index.html"/>
+  <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
   <preference name="BackgroundColor" value="0xffffffff"/>
