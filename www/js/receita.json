@@ -679,6 +679,205 @@ var listaReceita = {
             ],
             "preparo": "Coloque as batatas para cozinhar, com casca e com uma pitada de sal. Cubra com água até cerca de 1 dedo acima das batatas, deixando ferver, até que estejam macias. Utilizando o espremedor de batatas, utensílio indispensável numa boa cozinha, amasse-as, sem descascar e com cuidado para evitar que fiquem encaroçadas. Antes de colocar outra batata no espremedor, retire a casca que ficou dentro do recipiente com a ajuda de um garfo. Observe que assim é bem mais fácil: casca para um lado e batata para o outro. Coloque a massa obtida, ainda quente, em um prato fundo ou tigela juntamente com a manteiga e o sal. Com o auxílio de um garfo, amasse delicadamente e vá colocando leite quente aos poucos, até que o purê fique na consistência desejada.",
             "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 36,
+            "nome": "Batido de Beterraba e Banana",
+            "ingredientes": [
+                "Beterraba",
+                "Banana"
+            ],
+            "totalIngri": [
+                "100 g de beterraba ralada",
+                "2 bananas",
+                "500 ml de leite soja",
+                "2 raminhos de hortelã",
+                "2 colheres de sopa de geleia de milho"
+            ],
+            "preparo": "Triture a beterraba ralada com o leite. Corte as bananas às rodelas e adicione-as ao batido. Junte também as folhas de hortelã com a geleia/mel. Triture muito bem até obter um preparado homogéneo.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 37,
+            "nome": "Brócolis Rápido e Saboroso",
+            "ingredientes": [
+                "Brocolis",
+                "Bacon",
+                "Queijo"
+            ],
+            "totalIngri": [
+                "1 brócolis chinês",
+                "1 caixinha de creme de leite",
+                "100 g de bacon em cubinhos",
+                "1 colher (chá) de azeite",
+                "100 g de queijo parmesão ralado",
+                "1 pitada se sal"
+            ],
+            "preparo": "Corte em pedaços pequenos e cozinhe o brócolis no vapor (coloque 1 pitada de sal). Enquanto isso frite o bacon no azeite até dourar. Coloque o brocolis cozido no bacon e deixe continuar fritando por aproximadamente 1 minuto. Acrescente o creme de leite, deixe mais 1 minuto e de uma leve misturada, coloque por cima o queijo parmessão, desligue o fogo e deixe abafe a panela até que o queijo derreta.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 38,
+            "nome": "Macarrão Rápido com Calabresa",
+            "ingredientes": ["Calabresa"],
+            "totalIngri": [
+                "1 kg de macarrão tipo penne",
+                "2 calabresas picadas em cubos",
+                "2 tomates se semente",
+                "1 cebola",
+                "2 dentes de alho",
+                "1 caixa de creme de leite",
+                "Salsa e cebolinha verde a gosto",
+                "1 pitada de sal",
+                "1 caldo de carne"
+            ],
+            "preparo": "Cozinhe o macarrão e reserve. Em uma panela refogue o alho com a cebola. Acrescente o tomate, deixe fritar, junte a calabresa e o caldo. Deixe ferver um pouco. Coloque o creme de leite e mexa bem. Junte a cebolinha e a salsa, misture tudo e coloque o macarrão, mexendo para mistura tudo",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 39,
+            "nome": "Sopa de Cebola Rápida",
+            "ingredientes": ["Cebola"],
+            "totalIngri": [
+                "2 colheres de sopa de óleo",
+                "1 cebola bem grande ou duas pequenas em rodelas",
+                "3 tabletes de caldo de carne",
+                "5 copos de água fervendo",
+                "1 colher de sopa bem cheia de maizena",
+                "1 copo de leite",
+                "3 colheres de sopa de queijo parmesão ralado"
+            ],
+            "prepado": "Em uma panela, coloque o óleo deixe esquentar. Junte a cebola em rodelas, deixe fritar, mexendo sempre, sem deixar escurecer. Adicione os tabletes de carne e os 5 copos de água fervendo, deixe cozinhar em fogo brando por aproximadamente 15 minutos. Dissolva a maizena no copo de leite e misture devagar, mexendo sempre. Coloque o queijo parmesão e prove para acertar o sal, se necessário. Quando ferver estará pronta",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 40,
+            "nome": "Suflê de Cenoura",
+            "ingredientes": ["Cenoura"],
+            "totalIngri": [
+                "4 cenouras cozidas e amassadas",
+                "1 colher de margarina",
+                "1 cebola ralada",
+                "1 pitada de sal",
+                "1 copo de leite",
+                "2 colheres de farinha de trigo",
+                "100 g de queijo picado",
+                "3 gemas e claras separadas"
+            ],
+            "prepado": "Cozinhe as cenouras e amasse e reserve. Em uma panela coloque a manteiga, a cebola ralada e deixe fritar. Coloque a farinha dissolvida no leite com as 3 gemas. Coloque na panela e o queijo picado. Deixe engrossar, desligue o fogo e coloque a cenoura amassada. Misture bem e coloque as claras em neve. Coloque em um refratário untado com margarina e coloque no forno para gratinar",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 41,
+            "nome": "Doce de Leite Caseiro",
+            "ingredientes":["Leite"],
+            "totalIngri": [
+                "2 litros de leite",
+                "4 xícaras de açúcar (750 g)"
+            ],
+            "preparo": "Coloque o leite e o açúcar em uma panela grande de fundo largo. Leve ao fogo médio, mexendo sempre com uma colher de pau, até ferver (cerca de 15 minutos). Diminua o fogo e continue mexendo até obter um doce marrom claro de consistência cremosa (cerca de 45 minutos). Passe o doce para um refratário, deixe esfriar bem e sirva às colheradas em pratos de sobremesa com fatias de queijo branco.",
+            "rendimento": "10 porções"
+        },
+        
+        {
+            "id": 42,
+            "nome": "Maionese Ultra Rápida",
+            "ingredientes":["Maionese"],
+            "totalIngri": [
+                "2 ovos crus grandes",
+                "Óleo, o suficiente (cerca de 1 e 1/2 copo)",
+                "Suco de um limão",
+                "1 envelope de tempero do tipo sazón",
+                "1 pitada de sal (1/4 de colher de café)"
+            ],
+            "preparo": "Coloque todos os ingredientes no liquificador, exceto o óleo e ligue e desligue rapidamente o liquidificador 2 ou 3 vezes para uma pré-mistura. Coloque o liquidificador em velocidade máxima e pelo orifício da tampa, despeje o óleo, diretamente da lata, em um fio grosso. A quantia exata vai depender da quantidade da mistura dos ingredientes mas, uma boa dica é observar o momento em que maionese comece a ficar saturada de óleo",
+            "rendimento": "20 porções"
+        },
+        
+        {
+            "id": 43,
+            "nome": "Pão de Mel",
+            "ingredientes": ["Mel"],
+            "totalIngri": [
+                "1 xícara de mel líquido",
+                "1 xícara de açúcar cristal",
+                "1 xícara de leite morno",
+                "4 xícaras de farinha de trigo",
+                "1 colher de sopa de fermento em pó",
+                "1 colherinha de canela em pó",
+                "Chocolate derretido (opcional)"
+            ],
+            "preparo": "Misture o mel, o leite e o açúcar. Acrescente os demais ingredientes peneirados menos o chocolate. Misture tudo muito bem e coloque em forma untada e polvilhada com farinha de trigo. Asse em forno pré-aquecido médio até dourar cerca de 20 minutos. Ao retirar do forno cubra com o chocolate derretido",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 44,
+            "nome": "Creme de Milho",
+            "ingredientes": ["Milho"],
+            "totalIngri": [
+                "1 lata de milho verde escorrida (reserve alguns grãos)",
+                "1 lata de leite",
+                "1 colher de sopa de amido de milho (maisena)",
+                "1 tablete de caldo de galinha",
+                "2 dentes de alho amassados",
+                "1/2 cebola picada",
+                "3 colheres de sopa de Azeite"
+            ],
+            "preparo": "Bata o milho, o leite, o amido de milho e o caldo de galinha no liquidificador. Em uma panela refogue a cebola e o alho no azeite. Incorpore a mistura do liquidificador, mexendo até borbulhar. Retire do fogo e acrescente os grãos inteiros. Sirva a seguir.",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 45,
+            "nome": "Geléia de Morango",
+            "ingredientes": ["Morango"],
+            "totalIngri": [
+                "1 kg de morango",
+                "1 kg de açucar",
+                "2 colheres (de chá) de suco de limão
+            ],
+            "preparo": "Coloque na panela e deixe esquentar ao fogo o morango, até soltar líquidos, coloque as duas colheres do suco de limão, despeje o açúcar e deixe cozinhar por meia hora. Espere esfriar e sirva-se",
+            "rendimento": "10 porções"
+        },
+        
+        {
+            "id": 46,
+            "nome": "Bolinhas Rápidas de Mussarela",
+            "ingredientes": ["Mussarela"],
+            "totalIngri": [
+                "500 g de mussarela",
+                "1 ovo",
+                "1 colher e fermento em pó",
+                "1 xícara (chá) de farinha de trigo",
+                "Óleo"
+            ],
+            "preparo": "Rale a mussarela, acrescente o ovo e 1 colher de fermento em pó, mexa. Após adicione 1 xícara de farinha de trigo, mexa. Leve à geladeira por 15 minutos. Faça bolinhas e frite em óleo quente",
+            "rendimento": "20 porções"
+        },
+        
+        {
+            "id": 47,
+            "nome": "Salada Rápida de Pimentão",
+            "ingredientes": ["Pimentao"],
+            "totalIngri": [
+                "1 pimentão verde",
+                "1 pimentão amarelo",
+                "2 tomates",
+                "1/2 lata de milho verde",
+                "5 folhas de alface",
+                "Azeite de oliva",
+                "Suco de meio limão",
+                "1 pitada de sal"
+            ],
+            "preparo": "Corte os pimentões e os tomates em quadrados médios, tirando as sementes e os talos dos pimentões. Misture com o milho, temperando com o azeite, vinagre e sal a gosto. No prato onde a salada será servida, coloque as folhas de alface e depois coloque cuidadosamente a mistura sobre as folhas. Se quiser deixar bem bonito, corte tomates-cereja ao meio e deixe nos cantos do prato",
+            "rendimento": "6 porções"
         }
     ]
 }
