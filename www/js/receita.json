@@ -841,7 +841,7 @@ var listaReceita = {
             "totalIngri": [
                 "1 kg de morango",
                 "1 kg de açucar",
-                "2 colheres (de chá) de suco de limão
+                "2 colheres (de chá) de suco de limão"
             ],
             "preparo": "Coloque na panela e deixe esquentar ao fogo o morango, até soltar líquidos, coloque as duas colheres do suco de limão, despeje o açúcar e deixe cozinhar por meia hora. Espere esfriar e sirva-se",
             "rendimento": "10 porções"
