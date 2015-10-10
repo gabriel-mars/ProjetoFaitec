@@ -878,6 +878,79 @@ var listaReceita = {
             ],
             "preparo": "Corte os pimentões e os tomates em quadrados médios, tirando as sementes e os talos dos pimentões. Misture com o milho, temperando com o azeite, vinagre e sal a gosto. No prato onde a salada será servida, coloque as folhas de alface e depois coloque cuidadosamente a mistura sobre as folhas. Se quiser deixar bem bonito, corte tomates-cereja ao meio e deixe nos cantos do prato",
             "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 48,
+            "nome": "Rabanada",
+            "ingredientes": ["Pao"],
+            "totalIngri": [
+                "200g de pão francês",
+                "250ml de leite de coco adoçado, se possível fresco.",
+                "4 gemas batidas",
+                "Açúcar com canela para polvilhar"
+            ],
+            "preparo": "Corte os pães dormidos em fatias finas. Embeba-as no leite previamente adoçado. Passe cada fatia de pão nas gemas batidas. Frite as em óleo quente até dourá-las. Arrume-as numa travessa e polvilhe com o açúcar e canela.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 49,
+            "ingredientes": ["Queijo"],
+            "totalIngri": [
+                "200g de queijo parmesão tipo faixa azul ralado grosso",
+                "3 colheres (sopa) de farinha de trigo",
+                "1 ovo",
+                "1 colher (sopa) de manteiga",
+                "Farinha de rosca ou de trigo para empanar",
+                "Óleo para fritar"
+            ],
+            "preparo": "Numa tigela, misture bem todos os ingredientes. Modele as bolinhas. Passe-as ligeiramente em farinha de rosca ou de trigo. Aqueça bem o óleo, frite as bolinhas e sirva em seguida.",
+            "rendimento": "10 unidades"
+        },
+        
+        {
+            "id": 50,
+            "nome": "Tortilhas de Batata com Requeijão",
+            "ingredientes": ["Requeijao"],
+            "totalIngri": [
+                "4 batatas pequenas",
+                "2 colheres (sopa) de mussarela ralada",
+                "Sal a gosto",
+                "1 colher (sobremesa) de salsa picada",
+                "4 colheres (sopa) de requeijão"
+            ],
+            "preparo": "Cozinhe as batatas na água durante sete minutos após levantar fervura. Escorra, deixe esfriar e rale na parte grossa do ralador. Misture a batata, a mussarela, o sal e a salsa. Em uma frigideira pequena antiaderente e levemente untada ponha uma porção da mistura. Com uma espátula molde-a bem na frigideira e no fogo brando doure dos dois lados. Repita o processo com o restante da mistura. Sobre cada disco ponha uma porção de requeijão, dobre e sirva em seguida.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 51,
+            "nome": "Omelete de Rúcula",
+            "ingredientes": ["Rucula"],
+            "totalIngri": [
+                "3 ovos",
+                "3 colheres (sopa) de leite",
+                "1/2 xícara de rúcula",
+                "1/3 xícara de queijo ralado",
+                "1/2 colher (chá) de pimenta-do-reino",
+                "Sal a gosto"
+            ],
+            "preparo": "Bata os ovos com o leite e o sal até ficar bem leve. Esquente um pouco de óleo numa frigideira e despeje o ovo batido. Doure o omelete de um lado, vire, coloque a rúcula e o queijo no meio, tempere com sal e pimenta e deixe o queijo derreter. Sirva em seguida.",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 52,
+            "nome": "Mini Folhados de Salsicha",
+            "ingredientes": ["Salsicha"],
+            "totalIngri": [
+                "2 embalagens de massa folhada",
+                "Salsichas",
+                "Ketchup"
+            ],
+            "preparo": "Desenrole a massa e corte em tiras com cerca de dois dedos de largura, e um de altura. Corte cada salsicha em 3 partes iguais. Depois foi só enrolar uma a uma. Por num tabuleiro, com o papel vegetal que já vem com a massa folhada, e leve ao forno a 180º até dourarem. Servir com ketchup.",
+            "rendimento": "8 porções"
         }
     ]
 }
