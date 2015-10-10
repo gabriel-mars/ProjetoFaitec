@@ -531,6 +531,154 @@ var listaReceita = {
             ],
             "preparo": "No liquidificador, bata o milho, as gemas, a manteiga, sal, o parmesão, o leite e a farinha até homogeneizar. Transfira para uma tigela, acrescente as claras batidas em neve, o fermento e misture delicadamente. Coloque em um refratário de 20cm de diâmetro untado e leve ao forno médio, preaquecido, por 35 minutos ou até assar e dourar levemente. Retire do forno e sirva em seguida.",
             "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 27,
+            "nome": "Acelga de Forno",
+            "ingredientes": ["Acelga"],
+            "totalIngri": [
+                "1/2 kg de acelga bem picada",
+                "3 tomates bem maduros e firmes sem sementes cortados em cubinhos",
+                "1 colher de sopa azeite extra virgem",
+                "180 g de queijo parmesão ralado fresco",
+                "1 1/2 xícara de chá bem cheia de leite",
+                "3 ovos",
+                "Orégano e sal"
+            ],
+            "preparo": "Juntar em um refratário a acelga, o tomate, tempere com sal e orégano a gosto. Acrescentar o azeite, o queijo parmesão e mexa bem. Bater os ovos, juntar o leite e misturar bem. Coloque sobre a mistura. Leve ao forno até estar cozido e dourado por cima. Sirva em seguida",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 28,
+            "nome": "Agrião Refogado",
+            "ingredientes": ["Agriao"],
+            "totalIngri": [
+                "1 mão cheia de galhos e folhas de agrião, faça um monte alto na palma da mão",
+                "Sal",
+                "Pimenta malagueta",
+                "1 colher de sopa de manteiga" 
+            ],
+            "preparo": "Retire a quantidade necessária para uma pessoa do maço de agrião, lave e sacuda para soltar o excesso de água. Aqueça a manteiga com a pimenta-malagueta em uma frigideira bem grande. Assim que ela começar a ferver, acrescente o agrião. Envolva o agrião com a manteiga e quando as folhas começarem a murchar, tempere com sal e retire do fogo",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 29,
+            "nome": "Alface à Holandesa",
+            "ingredientes": ["Alface"],
+            "totalIngri": [
+                "1 pé de alface",
+                "1 pepino",
+                "1 beterraba cozida",
+                "4 ovos cozidos",
+                "Tempero:",
+                "1/2 xícara de creme de leite azedo",
+                "2 colheres (sopa) de óleo",
+                "2 colheres (sopa) de vinagre",
+                "Sal",
+                "Pimenta",
+                "1 pitada de açúcar",
+                "1 cebola pequena",
+                "3 ramos de salsa picados"
+            ],
+            "preparo": "Lave e separe as folhas de alface. Corte o pepino ao meio e depois em fatias de 1/2 centímetro de espessura. Corte a beterraba e os ovos em rodelas. Coloque a alface e o pepino numa travessa. Faça o tempero misturando todos os ingredientes. Espalhe sobre a alface e o pepino. Guarneça com a beterraba e as rodelas de ovo cozido.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 30,
+            "nome": "Patê de Atum",
+            "ingredientes": ["Atum"],
+            "totalIngri": [
+                "2 colheres (sopa) de cebola",
+                "1 lata de atum (em água)",
+                "1 colher (sopa) de salsinha",
+                "1 colher (sobremesa de mostarda)",
+                "2 colheres (sopa) bem cheias de maionese",
+                "Sal e pimenta do reino à seu gosto"
+            ],
+            "preparo": "Misture tudo. Se quiser mais cremoso adicione mais maionese ou creme de leite. Para deixar mais mais magrinho use a versão light da maionese. O atum pode ser substituído por peito de frango cozido e desfiado.",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 31,
+            "nome": "Bolachas de Aveia",
+            "ingredientes": ["Aveia"],
+            "totalIngri": [
+                "75 gr de manteiga",
+                "100gr de farinha de trigo",
+                "100gr aveia em flocos",
+                "100gr de açúcar",
+                "1 / 2 colher de chá de fermento em pó",
+                "raspa de uma laranja(facultativo)"
+            ],
+            "preparo": "Pré-aqueça o forno a 200 graus. Derreta a manteiga e na mesma tigela misture os restantes ingredientes. Com duas colheres de chá, ou de sopa, faço umas bolinhas e num tabuleiro forrado com papel vegetal. Coloque no forno durante 5 minutos, 7 se tiver feito bolachas maiores. É tão fácil e saem tão boas que custa a acreditar como foi rápido de se fazer!",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 32,
+            "nome": "Patê de Azeitona",
+            "ingredientes": ["Azeitona"],
+            "totalIngri": [
+                "200 g de azeitona sem caroço",
+                "200 g de maionese",
+                "2 dentes de alho",
+                "1/2 cebola",
+                "Coentro e cebolinha (1 xícara)",
+                "1 fio de azeite",
+                "Sal a gosto"
+            ],
+            "preparo": "Coloque todos os ingredientes no liquidificador e bata até ficar homogêneo. Conserve na geladeira",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 33,
+            "nome": "Massa de Bacon",
+            "ingredientes": ["Bacon"],
+            "totalIngri": [
+                "Macarrão da sua preferência",
+                "200 g de bacon",
+                "1 dente de alho",
+                "100 g de queijo ralado",
+                "1 cebola",
+                "1 lata de creme de leite",
+                "1 tomate"
+            ],
+            "preparo": "Para começar o preparo da massa com bacon ferva em uma panela água para fazer o macarrão da sua preferência e em outra coloque os ingredientes para o molho. Frite o alho, bacon e a cebola picada. Depois de fritar bem podemos adicionar o tomate picado também. O queijo ralado pode vir depois quando todos os ingredientes já estiverem bem cozidos. Coloque o creme de leite para finalizar, mexa bem e depois despeje por cima do macarrão. Sirva aos convidados acompanhado com um bom vinho e torradas.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 34,
+            "nome": "Banana Assada com Paçoquita",
+            "ingredientes": ["Banana"],
+            "totalIngri": [
+                "Banana nanica (quantas você quiser fazer e comer)",
+                "Paçoquita cremosa (se não tiver a Paçoquita, pode substituir por creme de amendoim que também fica uma delícia)",
+                "Leite condensado",
+                "Chantilly (opcional)"
+            ],
+            "preparo": "Sem retirar a casca, faça um corte na banana no sentido do comprimento sem abri-lá completamente. Com uma faca ou colher recheie a banana com Paçoquita cremosa (coloque a quantidade que quiser, mas não encha muito senão depois você não conseguirá fechar a banana direito). Embrulhe a banana com papel alumínio bem fechado e leve ao forno alto por 15 minutos. Retire do forno e deixe esfriar por pelo menos 10 minutos (se for abrir imediatamente, cuidado com o vapor quente que sai). Abra o papel alumínio e retire a banana da casca com ajuda de uma colher. Regue com o leite condensado e sirva ainda morno acompanhado de uma colher de chantilly  e com uma bola de sorvete de creme.",
+            "rendimento": "Cada banana é uma porção"
+        },
+        
+        {
+            "id": 35,
+            "nome": "Purê de Batata",
+            "ingredientes": ["Batata"],
+            "totalIngri": [
+                "1 kg de batata",
+                "3 colher(es) (sopa) de manteiga",
+                "quanto baste de sal",
+                "quanto baste de leite quente"
+            ],
+            "preparo": "Coloque as batatas para cozinhar, com casca e com uma pitada de sal. Cubra com água até cerca de 1 dedo acima das batatas, deixando ferver, até que estejam macias. Utilizando o espremedor de batatas, utensílio indispensável numa boa cozinha, amasse-as, sem descascar e com cuidado para evitar que fiquem encaroçadas. Antes de colocar outra batata no espremedor, retire a casca que ficou dentro do recipiente com a ajuda de um garfo. Observe que assim é bem mais fácil: casca para um lado e batata para o outro. Coloque a massa obtida, ainda quente, em um prato fundo ou tigela juntamente com a manteiga e o sal. Com o auxílio de um garfo, amasse delicadamente e vá colocando leite quente aos poucos, até que o purê fique na consistência desejada.",
+            "rendimento": "3 porções"
         }
     ]
 }
