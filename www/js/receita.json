@@ -951,6 +951,65 @@ var listaReceita = {
             ],
             "preparo": "Desenrole a massa e corte em tiras com cerca de dois dedos de largura, e um de altura. Corte cada salsicha em 3 partes iguais. Depois foi só enrolar uma a uma. Por num tabuleiro, com o papel vegetal que já vem com a massa folhada, e leve ao forno a 180º até dourarem. Servir com ketchup.",
             "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 53,
+            "nome": "Patê de Sardinha",
+            "ingredientes": ["Sardinha"],
+            "totalIngri": [
+                "1 sachê de maionese (200 g)",
+                "1 lata de sardinha tradicional (sem molho de tomate)",
+                "Coentro em folhas e cebolinha a gosto",
+            ],
+            "preparo": "Junte todos os ingredientes e bata no liquidificador até obter uma mistura homogênea. Dica: Sirva com torradas. É uma delícia e muito fácil de fazer",
+            "rendimento": "15 porções"
+        },
+        
+        {
+            "id": 54,
+            "nome": "Sanduíche de Biscoito com Sorvete",
+            "ingredientes": ["Sorvete"],
+            "totalIngri": [
+                "16 biscoitos tipo cookies de chocolate",
+                "1 pote de sorvete de creme ou de baunilha"
+            ],
+            "preparo": "Deixe o sorvete fora do freezer por uns 10 minutos ou até que fique maleável. Coloque meia bola de sorvete entre dois biscoitos, aperte ligeiramente e coloque em um prato no freezer. Repita a operação com os biscoitos restantes. Sirva as cookies geladas com um pouco de calda de chocolate.",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 55,
+            "nome": "Sopa de Tomate Fácil",
+            "ingredientes": ["Tomate"],
+            "totalIngri": [
+                "½ cebola grande picada",
+                "Azeite",
+                "1kg de tomates bem maduros cortados ao meio",
+                "500ml de água",
+                "4 folhas pequenas de manjericão ou manjerona (pode ser manjericão seco de saquinho se não tiver fresco)",
+                "1 folha de louro",
+                "2 colheres de chá de sal (ou a gosto"
+            ],
+            "preparo": "Em fogo médio, refogue a cebola no azeite até murchar e ficar mais transparente. Acrescente os tomates cortados, a água, as folhas de manjericão/manjerona e louro e o sal. Ainda em fogo médio, conte 20 minutos após levantar fervura. Desligue o fogo, deixe esfriar (essa parte é muito importante! Eu tentei bater no liquidificador ainda quente e... imagine o desastre), tire o louro (bater a sopa com a folha de louro pode deixá-la amarga) e bata no liquidificador. Passe a sopa por uma peneira fina e volte à panela em fogo médio. Acerte o sal (eu acrescentei mais uma colher de chá rasa de sal), mexa até levantar fervura e está pronta!",
+            "rendimento": "2 a 3 porções"
+        },
+        
+        {
+            "id": 56,
+            "nome": "Vagem Refogada",
+            "ingredientes": ["Vagem"],
+            "totalIngri": [
+                "250 g de vagem bem frescas",
+                "2 dentes de alho picados",
+                "1,5 colher (sopa) de azeite",
+                "1 cebola média picada",
+                "1/2 colher (chá) de sal",
+                "1 xícara de água quente",
+                "Pimenta a gosto"
+            ],
+            "preparo": "Lave bem as vagens e tire as pontinhas. Corte em pedaços de 3 centímetros e reserve. Numa frigideira, refogue o alho no azeite até dourar. Junte a cebola e refogue até murchar. Junte a vagem, a pimenta e o sal e mexa por 1 minuto. Junte a água e deixe cozinhar até a água secar e a vagem ficar macia. Se precisar, junte mais água quente e sal.",
+            "rendimento": "3 porções"
         }
     ]
 }
