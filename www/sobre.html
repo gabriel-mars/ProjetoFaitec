@@ -11,9 +11,9 @@
 	</head>
 <!--id="content"-->
 	<body>
-        <nav>
+        <nav class="fixar topo-sobre meuMenu">
             <div class="nav-wrapper cor tamanho-topo">
-                <a href="index.html" class="brand-logo">Receitas Rápidas</a>
+                <a href="index.html" class="brand-logo font-topo">Receitas Rápidas</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">list</i></a>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="index.html">Buscar Receitas</a></li>
@@ -23,7 +23,7 @@
         </nav>
         <div class = "corpo_pagina02">
 		<div id="central">
-			<h3 class="titulo_pagina02">Escolhendo o Cardápio</h3>
+			<h3 class="titulo_pagina02 topo-titulo2">Escolhendo o Cardápio</h3>
 			<p id="paragraph">
 				Com o corre-corre que vivemos não temos muito tempo de fazer escolhas de cardápios variados, práticos e rápidos.
 				Este aplicativo tem por finalidade auxiliar você a escolher o cardápio de hoje!
@@ -38,6 +38,7 @@
             </div>
 		</div>
         </div>
+        <script type="text/javascript" src="js/fixaMenu.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script>
@@ -45,5 +46,6 @@
                 $(".button-collapse").sideNav();    
             })
         </script>
+
 	</body>
 </html>
