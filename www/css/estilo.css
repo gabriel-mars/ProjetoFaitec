@@ -49,7 +49,7 @@
 #paragraph {
 	font-size: 25px;
 	text-align: center;
-    font-family: 'boogalooregular';
+    font-family: helvetica;
 }
 
 .imagem_inicial_centraliza{
@@ -73,8 +73,9 @@
 .div_final{
     width: 70%;
     margin:0 auto;
-    font-family: 'boogalooregular';
+    font-family: helvetica;
     font-size: 25px;
+    margin-top: 90px;
 }
 .corpo-botao{
     width: 100%;
@@ -87,4 +88,10 @@
 .cor{
 background: #DF0001;
     font-family: 'kaushan_scriptregular';
+}
+
+.fixar {
+    position: fixed;
+    margin-top: -14px;
+    z-index: 100;
 }

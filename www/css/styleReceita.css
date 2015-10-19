@@ -43,14 +43,15 @@
 h1{
    font-family: 'boogalooregular';
    text-align: center;
+   margin-top: 60px;
 }
 ol{
-   font-family: 'boogalooregular';
+   font-family: helvetica;
    list-style: none;
    font-size: 15px;
 }
 p{
-  font-family: 'boogalooregular';
+  font-family: helvetica;
   margin: 20px 30px 20px 30px;
   font-size: 15px;
 }
@@ -64,6 +65,10 @@ p{
 }
 .cor{
   background: #DF0001;
-    font-family: 'kaushan_scriptregular';
+  font-family: helvetica;
 }
-
+.fixar {
+    position: fixed;
+    margin-top: -60px;
+    z-index: 100;
+}

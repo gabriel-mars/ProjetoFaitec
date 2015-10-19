@@ -11,6 +11,18 @@
 
 }
 @font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'discoregular';
     src: url('../fonts/disco___-webfont.eot');
     src: url('../fonts/disco___-webfont.eot?#iefix') format('embedded-opentype'),
@@ -58,16 +70,16 @@
 }
 .cor{
     background:#DF0001;
-    font-family: 'kaushan_scriptregular';
+    font-family: helvetica;
 }
 .font-topo{
     font-family: 'kaushan_scriptregular';
 }
 .font-paragrafo{
-    font-family: 'discoregular';
+    font-family: helvetica;
 }
 .font-input{
-    font-family: 'boogalooregular';
+    font-family: helvetica;
 }
 .font-botao{
     font-family: 'boogalooregular';
@@ -76,3 +88,42 @@
 .tamanho-topo{
     padding-top: auto;
 }
+.tituloInicial{
+    font-family: 'alex_brushregular';
+    text-align: center;
+    font-size: 300px;
+    margin-top: 485px;
+    color: #DF0001;
+}
+.conteinerInicial{
+    width: 600px;
+    margin: 0 auto;
+}
+.corpoPrincipalInicial{
+      width: 100%;
+}
+.imagemInicial{
+    width: 250px;
+    margin-left: 431px;
+    margin-top: -112px;
+    position: absolute;
+}
+.corPaginaInicial{
+    background:rgba(223, 0, 1, 0.08);
+}
+
+.fixar{
+    position: fixed;
+    margin-top: -14px;
+    z-index: 100;
+}
+.topo-last{
+    margin-top: -90px;
+}
+.topo-sobre{
+    margin-top: -110px;
+}
+.topo-titulo2{
+    margin-top: 110px;
+}
+
