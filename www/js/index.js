@@ -24,7 +24,8 @@ function validaCheck(ingri,ingredientes,tamanhoOl){
     }
     
     if (naoChecados == ingri.length){
-        Materialize.toast('Selecione pelo menos um item!', 2000);
+        alertify.set({ delay: 2000});
+        alertify.log("Selecione ao menos um ingrediente!", 0);
         return;
     }    
     pesquisa (ingredientes,tamanhoOl);
@@ -77,9 +78,11 @@ function pesquisa (ingredientes,tamanhoOl) {
         }
     }
     if(link != 0){
-        Materialize.toast('Receita(s) Encontrada(s)!', 2000);
+        alertify.set({ delay: 2000});
+        alertify.log("Receita(s) Encontrada(s)!", 0);
     }else{
-        Materialize.toast('Nenhuma receita encontrada!', 2000);   
+        alertify.set({ delay: 2000});
+        alertify.log("Nenhuma Receita Encontrada", 0);
     }
 }
 
