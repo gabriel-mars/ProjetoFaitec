@@ -127,3 +127,31 @@
     margin-top: 110px;
 }
 
+ul {
+    list-style: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label:before {
+    background-color: white;
+    border: 1px solid #ccc;
+    content: '';
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: -2px 6px 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked + label:before {
+    content: "\2714";
+    font-size: 14px;
+    color: #99a1a7;
+    background-color:aliceblue
+}
