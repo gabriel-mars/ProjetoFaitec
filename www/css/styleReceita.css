@@ -35,9 +35,14 @@
     font-style: normal;
 
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
 .font-topo{
     font-family: 'kaushan_scriptregular';
+    font-size: 20px;
 }
 
 h1{
@@ -56,12 +61,11 @@ p{
   font-size: 15px;
 }
 .corpo-botao{
-   width: 100%;
    text-align: center;
 }
 .botao{
  font-family: 'boogalooregular';
- font-size: 16px;
+ font-size: 20px;
 }
 .cor{
   background: #DF0001;
@@ -71,4 +75,27 @@ p{
     position: fixed;
     margin-top: -60px;
     z-index: 100;
+}
+.titiloTopo{
+    padding-top:10px;
+    text-align: center;
+}
+.corPaginaInicial{
+    background:rgba(223, 0, 1, 0.08);
+}
+.cor{
+    background: rgb(191, 26, 26);
+}
+.font-topo{
+    font-family: 'kaushan_scriptregular';
+	font-size:25px;
+}
+.bordaMenu{
+  border:none;
+}
+.centralizaTituloTopo{
+    border: none;
+}
+.barraMenu{
+    font-size:19px;
 }

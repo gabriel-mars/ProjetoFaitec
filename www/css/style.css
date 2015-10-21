@@ -47,6 +47,12 @@
     font-style: normal;
 
 }
+a:link {
+text-decoration: none;
+}
+.stiloTitulo{
+ color:white;
+}
 #paragrafo1 {
     text-align: center;
 }
@@ -69,17 +75,25 @@
     margin-top:50px;
 }
 .cor{
-    background:#DF0001;
-    font-family: helvetica;
+    background: rgb(191, 26, 26);
 }
 .font-topo{
     font-family: 'kaushan_scriptregular';
+	font-size:25px;
+}
+.barraMenu{
+    font-size:19px;
+}
+.titiloTopo{
+    padding-top:10px;
+    text-align: center;
 }
 .font-paragrafo{
     font-family: helvetica;
 }
 .font-input{
     font-family: helvetica;
+    margin:5px;
 }
 .font-botao{
     font-family: 'boogalooregular';
@@ -123,8 +137,39 @@
 .topo-sobre{
     margin-top: -110px;
 }
-.topo-titulo2{
-    margin-top: 110px;
+.topo-titulo2 {
+    font-family: 'boogalooregular';
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+.paragrafoSobre{
+        margin: 30px;
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.centralizaTituloTopo{
+    border: none;
+}
+.bordaMenu{
+  border:none;
+}
+.div_final{
+    text-align: justify;
+    margin: 30px;
+    font-size: 16px;
+}
+.corpo-botao{
+    font-family: 'boogalooregular';
+ font-size: 20px;
+   text-align: center;
+}
+.styleUL{
+  list-style: none;
+}
+.olReceita{
+  font-size: 17px;
 }
 
 ul {
