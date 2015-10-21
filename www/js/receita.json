@@ -1,0 +1,1016 @@
+var listaReceita = {
+    "receitas":
+    [        
+        {
+            "id": 02, 
+            "nome": "Acelga com Mussarela",
+            "ingredientes": [
+                "Acelga",
+                "Limao",
+                "Ovo",
+                "Mussarela"
+            ],
+            "totalIngri": [
+                "2 maços de acelga picados",
+                "Sal e pimenta do reino a gosto",
+                "Suco de 1/2 limão",
+                "4 colheres (sopa) fr margarina",
+                "2 ovos cozidos picados",
+                "Margarina para untar",
+                "250g de queijo mussarela fatiado"  
+            ],
+            "preparo": "Em uma panela, cozinhe a acelga em água fervente com sal e o suco de limão por 5 minutos. Escorra bem.Na mesma panela, em fogo médio, aqueça 2 colheres (sopa) da margarina e refogue a acelga escorrida por 2 minutos.Tempere com pimenta e transfira, junto com os ovos cozidos e picados, para um refratário untado.Cubra com a mussarela fatiada, o restante da margarina em pedacinhos.Leve ao forno alto (200C), preaquecido, por 10 minutos para gratinar.Decore como desejar e sirva.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 03, 
+            "nome": "Anéis de Cebola",
+            "ingredientes": [
+                "Cebola",
+                "Ovo"
+            ],
+            "totalIngri": [
+                "4 cebolas bem grandes descascadas",
+                "1 lata de cerveja clara",
+                "3 ovos",
+                "1 xícara (chá)de farinha de trigo",
+                "1 colher (sopa) de azeite de oliva",
+                "1 colher (chá) de sal",
+                "1 colher (chá) de bicarbonato de sódio",
+                "1/2 colher (café) de noz moscada em pó",
+                "Óleo de milho em abundância"
+            ],
+            "preparo": "Com uma faca bem afiada corte as cebolas em fatias de 1cm de espessura e destaque os anéis.Despeje a cerveja numa vasilha refratária, junte os anéis de cebola e deixe marinar durante 30 minutos. Em outra vasilha ponha os ingredientes para empanar e misture com um batedor de arame até obter um a massa mole. Deixe essa massa descansar na geladeira durante 15 minutos.	Tire os anéis de cebola da cerveja e seque-os com papel absorvente.	Aqueça bem o óleo (1/2 litro, no mínimo) em fogo médio numa panela bem grande. Quando o óleo estiver bem quente retire a massa da geladeira, passe cada anel de cebola nela e frite de 2 em 2 ou de 3 em 3 de cada vez para que não grudem formando um amontoado que vai ser difícil separar com a escumadeira. Deixe fritar durante 2 minutos de cada lado até que fiquem dourados. Retire-os e coloque para escorrer numa travessa forrada com papel absorvente. Sirva em seguida.",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 04, 
+            "nome": "Banana Caramelada",
+            "ingredientes": [
+                "Banana",
+                "Mel"
+            ],
+            "totalIngri": [
+                "4 colheres (sopa) de açúcar",
+                "3 colheres (sopa) de água",
+                "4 bananas maduras",
+                "2 colheres (sopa) de mel"
+    
+            ],
+            "preparo": "Descasque as bananas. Coloque em uma panela o açúcar, a água e o mel. Cozinhe em fogo médio até caramelizar. Abaixe o fogo e acrescente as bananas. Deixe cozinhar por mais 8 minutos ou até as bananas ficarem levemente douradas. Coloque num prato de sobremesa e sirva.",
+            "rendimento": "4 porções"
+        },
+        
+        { 
+            "id": 05,
+            "nome": "Batata Assada Recheada com Salsicha e Requeijão",
+            "ingredientes": [
+                "Batata",
+                "Requeijao",
+                "Salsicha",
+                "Queijo"
+            ],
+            "totalIngri":[
+                "4 batatas grandes e retas, com casca e bem lavadas",
+                "1 copo de requeijão (200 g)",
+                "6 salsichas Hot Dog Perdigão, em cubinhos",
+                "4 ramos de salsa picados",
+                "Folhas picadas de 2 ramos de alecrim",
+                "Sal a gosto",
+                "½ xícara (chá) de queijo parmesão ralado fino"
+            ],
+            "preparo": "Asse as batatas: preaqueça o forno em temperatura média (180°C). Com um garfo fure as batatas e embrulhe cada uma em uma folha de papel-alumínio dupla. Acomode-as em uma assadeira e leve ao forno para assar por 1 hora 30 minutos. Quando as batatas estiverem macias, desembrulhe-as, e espere que esfriem um pouco. Faça um corte em cruz em cada uma e retire a casca dessa parte superior. Aperte um pouco a parte cortada, para que as batatas se abram. Com uma colher, retire um pouco dessa polpa (cerca de 2 colheres de sopa) e coloque em uma tigela. Reserve. Prepare o recheio: na tigela com a polpa das batatas, coloque o requeijão, as salsichas, as ervas e misture. Polvilhe um pouco de sal nas cavidades das batatas, preencha-as com o recheio e polvilhe o parmesão. Leve ao forno médio (180°C) por 20 minutos para aquecer e dourar. Sirva em seguida.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 06, 
+            "nome": "Berinjela Rápida em Rodelas",
+            "ingredientes": ["Berinjela"],
+            "totalIngri": [
+                "1 berinjela pequena cortada em rodelas finas (250g)",
+                "4 colheres (sopa) de farinha de trigo",
+                "1 sachê de Caldo SAZÓN® Legumes",
+                "4 colheres (sopa) de azeite de oliva"  
+            ],
+            "preparo": "Deixe as rodelas de berinjela de molho em 1 litro de água e 1 colher (chá) de sal por 15 minutos. Deixe escorrer em uma peneira por 30 minutos, para eliminar o excesso de líquido. Enxugue-as em papel absorvente e passe-as duas vezes pela farinha de trigo previamente  misturada ao Caldo SAZÓN e 1 pitada de sal. Em uma frigideira grande, aqueça metade do azeite em fogo alto e frite a berinjela, aos poucos, virando na metade do tempo, por 3 minutos, ou até dourarem. Escorra em papel absorvente e sirva em seguida.",
+            "rendimento": "4 porções."
+        },
+        
+        {
+            "id": 07, 
+            "nome": "Cenouras Rápidas",
+            "ingredientes": [
+                "Cenoura",
+                "Cebola"
+            ],
+            "totalIngri": [
+                "1/2kg de cenoura média",
+                "3 colheres (sopa) de óleo",
+                "3 dentes de alho, picados",
+                "1 colher (sopa) de cebola picada",
+                "1/4 xícara (chá) de vinagre",
+                "1 colher (sopa) de cravo da índia, canela, pimenta da jamaica e pimenta do  reino em grãos, misturados e amarrados em um pano bem fino",
+                "1/2 colher (chá) de mostarda em pó",
+                "Sal e pimenta do reino à gosto",
+                "1 cebola cortada em fatias"
+            ],
+            "preparo": "Corte as cenouras em fatias finas diagonais. Em uma frigideira, cozinhe no óleo quente, o alho e a cebola picada até que fiquem macios. Adicione as cenouras e os demais ingredientes, menos a cebola em fatias. Deixe cozinhar até que as cenouras estejam al dente. Elimine o saquinho de especiarias e coloque em um prato fundo. Espalhe as fatias de cebola por cima, cubra e leve à geladeira, mexendo ocasionalmente.",
+            "rendimento": "De 10 a 12 porções."
+        },
+        
+        {
+            "id": 08,
+            "nome": "Couve Flor à Doré",
+            "ingredientes": [
+                "Couve",
+                "Ovo",
+                "Leite"
+            ],
+            "totalIngri": [
+                "3 litros de água",
+                "Sal e pimenta do reino a gosto",
+                "1 cubo de caldo de legumes",
+                "1 couve flor",
+                "1 ovo batido",
+                "1/2 xícara (chá) de leite gelado",
+                "1 colher (chá) de fermento em pó",
+                "1 colher (sopa) de farinha de trigo",
+                "Óleo para fritar"
+            ],
+            "preparo": "Ferva a água em uma panela grande com sal e o caldo de legumes. Corte a couve flor em pequenos buquês, coloque na panela com a água fervendo e cozinhe por 5 minutos. Escorra e deixe esfriar. Misture o ovo com o leite e adicione o fermento. Junte a farinha, o sal, pimenta e misture. Passe os pedaços da couve flor pela mistura e frite no óleo quente até dourar. Escorra sobre papel toalha e sirva.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 09, 
+            "nome": "Couve Flor Gratinada",
+            "ingredientes": [
+                "Couve",
+                "Leite",
+                "Cebola",
+                "Queijo",
+                "Mussarela"
+            ],
+            "totalIngri": [
+                "1/2 litro de leite",
+                "1 cebola pequena ralada",
+                "2 colheres (sopa) de maisena",
+                "Sal a gosto",
+                "100 g de queijo",
+                "Mussarela ralada no ralo grosso",
+                "1/2 xícara (chá) de queijo parmesão ralado",
+                "1 couve-flor pequena",
+                "1/2 xícara (chá) de água",
+                "Sal a gosto"
+            ],
+            "preparo": "Limpe e lave muito bem a couve-flor e separe-a em buquês num refratário fundo, acrescente a água e o sal dissolvido nela, cubra e leve ao microondas por 10 minutos em potência 100% (alta). Escorra e reserve. Molho branco: Num refratário coloque todos os ingredientes do molho, sendo que a maisena deve ser dissolvida à parte num pouco do leite usado na receita. Leve ao microondas por 7 minutos em potência 100% (alta), mexendo na metade do tempo de cozimento. Reserve. Arrume os buquês de couve-flor num refratário raso, despeje o molho branco sobre eles e cubra com o mussarela ralada. Polvilhe com o queijo parmesão ralado. Coloque o prato assim montado sobre o suporte metálico e leve no modo dourar para gratinar por 10 minutos.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 10, 
+            "nome": "Ensopado de Ovos",
+            "ingredientes": [
+                "Cebola",
+                "Tomate",
+                "Limao",
+                "Ovo"
+            ],
+            "totalIngri": [
+                "3 dentes de alho picados",
+                "1 cebola média bem picada",
+                "4 colheres (sopa) de azeite",
+                "1 tomate picado com sementes",
+                "2 colheres (sopa) de salsinha ou coentro picado",
+                "4 xícaras (chá) de água",
+                "1 colher (sopa) de suco de limão",
+                "6 ovos",
+                "2/3 xícara (chá) de farinha de mandioca",
+                "Sal a gosto"
+            ],
+            "preparo": "Frite o alho e a cebola no azeite até começarem a dourar. Junte o tomate, a salsinha e cozinhe em fogo baixo, com a panela tampada, por 5 minutos. Aumente o fogo, junte a água e, quando ferver, acrescente o suco de limão e os ovos. Abaixe o fogo, tampe e cozinhe até os ovos ficarem firmes. Com uma escumadeira retire os ovos e reserve-os. Acrescente a farinha de mandioca ao caldo e misture sempre até engrossar e virar um creme grosso e brilhante. Tempere. Coloque em uma travessa com os ovos cozidos por cima. Sirva quente.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 11, 
+            "nome": "Farofa de Bacon com Azeitona",
+            "ingredientes": [
+                "Bacon",
+                "Azeitona",
+                "Ovo"
+            ],
+            "totalIngri": [
+                "2 colheres (sopa) de óleo",
+                "4 fatias de bacon picado",
+                "1 cebola picada",
+                "1 dente de alho amassado",
+                "1/2 xícara (chá) de azeitonas verdes picadas",
+                "3 ovos batidos",
+                "2 colheres (chá) de sal",
+                "1/2 xícara (chá) de cheiro verde picado",
+                "3 xícaras (chá) de farinha de mandioca",
+                "Folhas de salsinha para decorar",
+            ],
+            "preparo": "Em uma panela, em fogo médio, aqueça o óleo, frite o bacon e a cebola por 5 minutos ou até que dourem. Junte o alho, as azeitonas e refogue por mais 2 minutos. Acrescente os ovos batidos, o sal, o cheiro verde e cozinhe por 5 minutos. Despeje a farinha e cozinhe por mais cerca de 3 minutos. Decore com salsinha e sirva.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 12, 
+            "nome": "Farofa de Banana",
+            "ingredientes": [
+                "Banana",
+                "Cebola",
+                "Bacon"
+            ],
+            "totalIngri": [
+                "Banana da terra madura em cubos",
+                "Cebola picada",
+                "Alho picado",
+                "Bacon picado",
+                "Farinha de mandioca",
+                "Cheiro verde",
+                "Pimenta calabresa",
+                "Manteiga",
+                "Sal"
+            ],
+            "preparo": "Frite a banana da terra picada em cubinhos, até ficarem douradas, e reserve em papel absorvente. Doure a cebola, o alho, bacon e pitadas de pimenta e sal com manteiga e acrescente a banana frita. Doure mais um pouco, desligue o fogo, acrescente a farinha devagar mistura e por fim o cheiro verde. Sirva em seguida.",
+        },
+        
+        {
+            "id": 13, 
+            "nome": "Farofa Rápida de Calabresa",
+            "ingredientes": [
+                "Calabresa",
+                "Cebola",
+                "Milho"
+            ],
+            "totalIngri": [
+                "4 colheres (sopa) de margarina",
+                "1 linguiça calabresa sem pele em cubos",
+                "1 cebola grande picada",
+                "1 lata de milho verde escorrido",
+                "3 xícaras (chá) de farinha de milho",
+                "Sal e pimenta do reino a gosto"
+            ],
+            "preparo": "Aqueça a margarina em uma panela em fogo médio e refogue a calabresa e a cebola por 5 minutos ou até dourar. Acrescente o milho e refogue por 3 minutos. Adicione a farinha de milho, sal e pimenta e refogue por mais 5 minutos, mexendo sempre. Transfira para uma vasilha e sirva em seguida. Se desejar, decore com folhas de salsa.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 14, 
+            "nome": "Farofa Saldável",
+            "ingredientes": [
+                "Cebola",
+                "Aveia",
+                "Cenoura",
+                "Azeitona"
+            ],
+            "totalIngri": [
+                "3 colheres (sopa) de azeite de oliva",
+                "3 colheres (sopa) de cebola bem picada",
+                "1 xícara (chá) de farinha de milho",
+                "1 xícara (chá) de aveia em flocos",
+                "1/2 cenoura média ralada grosso",
+                "4 colheres (sopa) de azeitonas verdes, em rodelas",
+                "1 sachê de Caldo SAZÓN Costela"
+            ],
+            "preparo": "Em uma frigideira média, coloque o azeite e leve ao fogo alto para aquecer. Junte a cebola e refogue por 2 minutos. Acrescente a farinha de milho e a aveia, e cozinhe, mexendo sempre, por 3 minutos, ou até dourar. Adicione a cenoura e as azeitonas, tempere com o Caldo SAZÓN e retire do fogo. Sirva em seguida.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 15, 
+            "nome": "Folha de Couve Flor Refogada",
+            "ingredientes": ["Couve"],
+            "totalIngri": [
+                "1 dente de alho amassado",
+                "2 colheres (sopa) de óleo",
+                "2 xícaras (chá) de folhas de couve flor picadas como couve à mineira",
+                "Sal a gosto"
+            ],
+            "preparo": "Frite o alho no óleo até dourar. Junte as folhas de couve flor picadas e o sal. Refogue por 2 minutos.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 16, 
+            "nome": "Fritada com Bacon",
+            "ingredientes": [
+                "Bacon",
+                "Batata",
+                "Cebola",
+                "Ovo",
+                "Pimentao"
+            ],
+            "totalIngri": [
+                "2 fatias de bacon picadas",
+                "1 batata em fatias médias",
+                "1/2 cebola em rodelas",
+                "1/2 pimentão em tirinhas finas",
+                "3 ovos batidos",
+                "Sal e pimenta do reino a gosto"
+            ],
+            "preparo": "Aqueça uma frigideira anti aderente e frite o bacon em sua própria gordura até dourar. Junte a batata e frite as fatias até que fiquem macias. Acrescente as rodelas de cebola e refogue-as até se tornarem transparentes e macias. Ponha o pimentão, mexa por um minuto e acrescente as batatas. Despeje os ovos batidos e temperados com sal e a pimenta e cubra todos os ingredientes. Deixe dourar de um lado e, com a ajuda de um prato, vire para dourar do outro lado. Sirva em seguida.",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 17, 
+            "nome": "Fritada de Calabresa",
+            "ingredientes": [
+                "Calabresa",
+                "Tomate",
+                "Cebola",
+                "Ovo",
+                "Queijo"
+            ],
+            "totalIngri": [
+                "3 colheres (sopa) de azeite",
+                "1 lingüiça calabresa defumada",
+                "1 cebola picada",
+                "2 dentes de alho amassados",
+                "3 tomates picados",
+                "6 ovos",
+                "1/4 xícara (chá) de queijo parmesão ralado",
+                "1/4 xícara (chá) de manjericão picado",
+                "Sal e pimenta do reino a gosto"
+            ],
+            "preparo": "Em uma frigideira, coloque o azeite, a linguiça, a cebola, o alho e frite até dourar. Junte o tomate e cozinhe por 10 minutos. Em uma tigela, bata os ovos, o parmesão, o manjericão, sal e pimenta com um garfo. Despeje sobre o refogado e frite dos dois lados até dourar. Decore como desejar e sirva em seguida.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 18, 
+            "nome": "Lanche Rápido",
+            "ingredientes": [
+                "Sardinha",
+                "Maionese",
+                "Pao",
+                "Mussarela",
+                "Tomate"
+            ],
+            "totalIngri": [
+                "1 lata de sardinha sem espinhas escorrida",
+                "4 colheres (sopa) de maionese light",
+                "Sal e pimenta do reino à gosto",
+                "2 pães sírios grandes",
+                "4 fatias de queijo muzzarella",
+                "4 fatias de tomate",
+                "2 folhas de alface lavadas e secas",
+                "Margarina para untar",
+                "Orégano para polvilhar" 
+            ],
+            "preparo": "Em uma tigela, amasse a sardinha com um garfo, misture com a maionese e tempere com sal e pimenta. Corte o pão ao meio, sem separar as metades, e recheie com essa mistura. Transfira para uma forma untada, cubra com a muzzarella, as fatias de tomate e polvilhe com o orégano. Leve ao forno alto, pré aquecido, por 10 minutos ou até dourar levemente e o queijo derreter. Retire do forno, coloque as folhas de alface no meio e sirva em seguida.",
+            "rendimento": "2 Unidades."
+        },
+        
+        {
+            "id": 19, 
+            "nome": "Limonada Suíça com Leite Condensado",
+            "ingredientes": ["Limao"],
+            "totalIngri": [
+                "3 limões",
+                "Leite condensado a gosto",
+                "Gelo",
+                "Água ou soda limonada (aproximadamente 3 copos)"
+            ],
+            "preparo": "Lave os limões e corte em quatro partes mantendo a casca. Bata junto com os outros ingredientes no liquidificador. Coe e sirva em seguida. Por causa da casca, não guarde este suco na geladeira, pois fica muito amargo.",
+            "rendimento": "3 copos"
+        },
+        
+        {
+            "id": 20, 
+            "nome": "Maionese de Atum",
+            "ingredientes": [
+                "Batata",
+                "Cenoura",
+                "Vagem",
+                "Cebola",
+                "Atum",
+                "Maionese"
+            ],
+            "totalIngri": [
+                "1/2kg de batatas",
+                "250g de cenoura",
+                "250g de vagem",
+                "1 cebola picada",
+                "1 lata de atum (184g)",
+                "1 lata de ervilha",
+                "2 xícaras (chá) de maionese",
+                "2 colheres (sopa) de salsa picada",
+                "Pimenta do reino e sal a gosto"
+            ],
+            "preparo": "Cozinhe as batatas, as cenouras e as vagens picadas. Deixe esfriar e tempere com a cebola, a salsa, o sal e pimenta. Acrescente o atum, a ervilha e a maionese e misture. Leve à geladeira até o momento de servir.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 21, 
+            "nome": "Milk Shake de Morango",
+            "ingredientes": [
+                "Sorvete",
+                "Leite",
+                "Morango"
+            ],
+            "totalIngri": [
+                "3 bolas de sorvete de morango",
+                "1 copo de leite gelado",
+                "Cobertura pronta sabor morango",
+                "3 morangos médios"
+            ],
+            "preparo": "Bata o leite e o sorvete no liquidificador por um minuto. Adicione os morangos e bata por mais ou menos 10 segundo para que o moorango seja triturado. Decore o copo em que vai colocar o milk shake (um copo grande) com a cobertura de morango (derrame o fio de cobertura pelas laterais do copo e não só no fundo). Despeje a mistura batida.",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 22, 
+            "nome": "Omelete de Liquidificador",
+            "ingredientes": [
+                "Pao",
+                "Ovo",
+                "Queijo"
+            ],
+            "totalIngri": [
+                "1 1/2 xícara (chá) de miolo de pão francês",
+                "4 ovos",
+                "3 colheres (sopa) de óleo",
+                "2 colheres (sopa) rasas de farinha de trigo",
+                "1 colher (sopa) de queijo parmesão ralado",
+                "1 colher (café) de alho amassado",
+                "2 colheres (sopa) de cebolinha picada",
+                "1 colher (chá) de azeite"
+            ],
+            "preparo": "No liquidificador, bata todos os ingredientes, menos o azeite. Em uma frigideira antiaderente, coloque o azeite, leve ao fogo, despeje a omelete e frite até dourar dos dois lados. Retire do fogo e sirva em seguida.",
+            "rendimento": "2 porções."
+        },
+        
+        {
+            "id": 23, 
+            "nome": "Omelete de Salsicha",
+            "ingredientes": [
+                "Ovo",
+                "Salsicha"
+            ],
+            "totalIngri": [
+                "3 ovos",
+                "Sal e salsa picada a gosto",
+                "1 colher (sopa) de óleo",
+                "2 colheres (sopa) de requeijão",
+                "3 salsichas aferventadas e cortadas em rodelas"
+            ],
+            "preparo": "Bata bem os ovos, tempere com sal e salsa. Em uma frigideira média, aqueça o óleo, espalhe a mistura de ovos, tampe e deixe cozinhar no fogo baixo durante cinco minutos ou até as bordas dourarem. Vire delicadamente e doure do outro lado. Ainda na frigideira, espalhe o requeijão e as rodelas de salsicha. Dobre a omelete e sirva em seguida.",
+            "rendimento": "2 porções."
+        },
+        
+        {
+            "id": 24, 
+            "nome": "Omelete Fácil",
+            "ingredientes": ["Ovo"],
+            "totalIngri": [
+                "2 ovos",
+                "1/2 xícara (café) de água",
+                "1 pitada de sal"      
+            ],
+            "preparo": "Bata os ovos e a água e o sal no liquidificador. Unte a frigideira com margarina. Coloque os ovos e deixe cozinhar, depois, coloque o recheio e vire o omelete.",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 25, 
+            "nome": "Salada de Legumes",
+            "ingredientes": [
+                "Alface",
+                "Rucula",
+                "Agriao",
+                "Brocolis",
+                "Couve",
+                "Beterraba",
+                "Cenoura"
+            ],
+            "totalIngri": [
+                "4 folhas de alface americana",
+                "2 folhas de rúcula",
+                "1 xícara (chá) de agrião",
+                "Brócolis",
+                "Couve manteiga",
+                "Couve-flor",
+                "Beterraba",
+                "3 cenouras",
+                "1 xícara (chá) de cebolinha verde picada",
+                "1 xícara (chá) de salsinha",
+                "1 xícara (chá) de salsão "
+            ],
+            "preparo": "Corte e misture todos os ingredientes. Sirva com o molho de sua preferência à parte.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 26, 
+            "nome": "Suflê de Milho com Queijo Parmesão",
+            "ingredientes": [
+                "Milho",
+                "Ovo",
+                "Queijo",
+                "Leite"
+            ],
+            "totalIngri": [
+                "1 lata de milho verde escorrido",
+                "4 ovos (claras e gemas separadas)",
+                "1 colher (sopa) de manteiga",
+                "Sal a gosto",
+                "50g de queijo parmesão ralado",
+                "2 xícaras (chá) de leite",
+                "1 colher (sopa) de farinha de trigo",
+                "1 colher (sopa) de fermento em pó",
+                "Margarina para untar"
+            ],
+            "preparo": "No liquidificador, bata o milho, as gemas, a manteiga, sal, o parmesão, o leite e a farinha até homogeneizar. Transfira para uma tigela, acrescente as claras batidas em neve, o fermento e misture delicadamente. Coloque em um refratário de 20cm de diâmetro untado e leve ao forno médio, preaquecido, por 35 minutos ou até assar e dourar levemente. Retire do forno e sirva em seguida.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 27,
+            "nome": "Acelga de Forno",
+            "ingredientes": ["Acelga"],
+            "totalIngri": [
+                "1/2 kg de acelga bem picada",
+                "3 tomates bem maduros e firmes sem sementes cortados em cubinhos",
+                "1 colher de sopa azeite extra virgem",
+                "180 g de queijo parmesão ralado fresco",
+                "1 1/2 xícara de chá bem cheia de leite",
+                "3 ovos",
+                "Orégano e sal"
+            ],
+            "preparo": "Juntar em um refratário a acelga, o tomate, tempere com sal e orégano a gosto. Acrescentar o azeite, o queijo parmesão e mexa bem. Bater os ovos, juntar o leite e misturar bem. Coloque sobre a mistura. Leve ao forno até estar cozido e dourado por cima. Sirva em seguida",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 28,
+            "nome": "Agrião Refogado",
+            "ingredientes": ["Agriao"],
+            "totalIngri": [
+                "1 mão cheia de galhos e folhas de agrião, faça um monte alto na palma da mão",
+                "Sal",
+                "Pimenta malagueta",
+                "1 colher de sopa de manteiga" 
+            ],
+            "preparo": "Retire a quantidade necessária para uma pessoa do maço de agrião, lave e sacuda para soltar o excesso de água. Aqueça a manteiga com a pimenta-malagueta em uma frigideira bem grande. Assim que ela começar a ferver, acrescente o agrião. Envolva o agrião com a manteiga e quando as folhas começarem a murchar, tempere com sal e retire do fogo",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 29,
+            "nome": "Alface à Holandesa",
+            "ingredientes": ["Alface"],
+            "totalIngri": [
+                "1 pé de alface",
+                "1 pepino",
+                "1 beterraba cozida",
+                "4 ovos cozidos",
+                "Tempero:",
+                "1/2 xícara de creme de leite azedo",
+                "2 colheres (sopa) de óleo",
+                "2 colheres (sopa) de vinagre",
+                "Sal",
+                "Pimenta",
+                "1 pitada de açúcar",
+                "1 cebola pequena",
+                "3 ramos de salsa picados"
+            ],
+            "preparo": "Lave e separe as folhas de alface. Corte o pepino ao meio e depois em fatias de 1/2 centímetro de espessura. Corte a beterraba e os ovos em rodelas. Coloque a alface e o pepino numa travessa. Faça o tempero misturando todos os ingredientes. Espalhe sobre a alface e o pepino. Guarneça com a beterraba e as rodelas de ovo cozido.",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 30,
+            "nome": "Patê de Atum",
+            "ingredientes": ["Atum"],
+            "totalIngri": [
+                "2 colheres (sopa) de cebola",
+                "1 lata de atum (em água)",
+                "1 colher (sopa) de salsinha",
+                "1 colher (sobremesa de mostarda)",
+                "2 colheres (sopa) bem cheias de maionese",
+                "Sal e pimenta do reino à seu gosto"
+            ],
+            "preparo": "Misture tudo. Se quiser mais cremoso adicione mais maionese ou creme de leite. Para deixar mais mais magrinho use a versão light da maionese. O atum pode ser substituído por peito de frango cozido e desfiado.",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 31,
+            "nome": "Bolachas de Aveia",
+            "ingredientes": ["Aveia"],
+            "totalIngri": [
+                "75 gr de manteiga",
+                "100gr de farinha de trigo",
+                "100gr aveia em flocos",
+                "100gr de açúcar",
+                "1 / 2 colher de chá de fermento em pó",
+                "raspa de uma laranja(facultativo)"
+            ],
+            "preparo": "Pré-aqueça o forno a 200 graus. Derreta a manteiga e na mesma tigela misture os restantes ingredientes. Com duas colheres de chá, ou de sopa, faço umas bolinhas e num tabuleiro forrado com papel vegetal. Coloque no forno durante 5 minutos, 7 se tiver feito bolachas maiores. É tão fácil e saem tão boas que custa a acreditar como foi rápido de se fazer!",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 32,
+            "nome": "Patê de Azeitona",
+            "ingredientes": ["Azeitona"],
+            "totalIngri": [
+                "200 g de azeitona sem caroço",
+                "200 g de maionese",
+                "2 dentes de alho",
+                "1/2 cebola",
+                "Coentro e cebolinha (1 xícara)",
+                "1 fio de azeite",
+                "Sal a gosto"
+            ],
+            "preparo": "Coloque todos os ingredientes no liquidificador e bata até ficar homogêneo. Conserve na geladeira",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 33,
+            "nome": "Massa de Bacon",
+            "ingredientes": ["Bacon"],
+            "totalIngri": [
+                "Macarrão da sua preferência",
+                "200 g de bacon",
+                "1 dente de alho",
+                "100 g de queijo ralado",
+                "1 cebola",
+                "1 lata de creme de leite",
+                "1 tomate"
+            ],
+            "preparo": "Para começar o preparo da massa com bacon ferva em uma panela água para fazer o macarrão da sua preferência e em outra coloque os ingredientes para o molho. Frite o alho, bacon e a cebola picada. Depois de fritar bem podemos adicionar o tomate picado também. O queijo ralado pode vir depois quando todos os ingredientes já estiverem bem cozidos. Coloque o creme de leite para finalizar, mexa bem e depois despeje por cima do macarrão. Sirva aos convidados acompanhado com um bom vinho e torradas.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 34,
+            "nome": "Banana Assada com Paçoquita",
+            "ingredientes": ["Banana"],
+            "totalIngri": [
+                "Banana nanica (quantas você quiser fazer e comer)",
+                "Paçoquita cremosa (se não tiver a Paçoquita, pode substituir por creme de amendoim que também fica uma delícia)",
+                "Leite condensado",
+                "Chantilly (opcional)"
+            ],
+            "preparo": "Sem retirar a casca, faça um corte na banana no sentido do comprimento sem abri-lá completamente. Com uma faca ou colher recheie a banana com Paçoquita cremosa (coloque a quantidade que quiser, mas não encha muito senão depois você não conseguirá fechar a banana direito). Embrulhe a banana com papel alumínio bem fechado e leve ao forno alto por 15 minutos. Retire do forno e deixe esfriar por pelo menos 10 minutos (se for abrir imediatamente, cuidado com o vapor quente que sai). Abra o papel alumínio e retire a banana da casca com ajuda de uma colher. Regue com o leite condensado e sirva ainda morno acompanhado de uma colher de chantilly  e com uma bola de sorvete de creme.",
+            "rendimento": "Cada banana é uma porção"
+        },
+        
+        {
+            "id": 35,
+            "nome": "Purê de Batata",
+            "ingredientes": ["Batata"],
+            "totalIngri": [
+                "1 kg de batata",
+                "3 colher(es) (sopa) de manteiga",
+                "quanto baste de sal",
+                "quanto baste de leite quente"
+            ],
+            "preparo": "Coloque as batatas para cozinhar, com casca e com uma pitada de sal. Cubra com água até cerca de 1 dedo acima das batatas, deixando ferver, até que estejam macias. Utilizando o espremedor de batatas, utensílio indispensável numa boa cozinha, amasse-as, sem descascar e com cuidado para evitar que fiquem encaroçadas. Antes de colocar outra batata no espremedor, retire a casca que ficou dentro do recipiente com a ajuda de um garfo. Observe que assim é bem mais fácil: casca para um lado e batata para o outro. Coloque a massa obtida, ainda quente, em um prato fundo ou tigela juntamente com a manteiga e o sal. Com o auxílio de um garfo, amasse delicadamente e vá colocando leite quente aos poucos, até que o purê fique na consistência desejada.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 36,
+            "nome": "Batido de Beterraba e Banana",
+            "ingredientes": [
+                "Beterraba",
+                "Banana"
+            ],
+            "totalIngri": [
+                "100 g de beterraba ralada",
+                "2 bananas",
+                "500 ml de leite soja",
+                "2 raminhos de hortelã",
+                "2 colheres de sopa de geleia de milho"
+            ],
+            "preparo": "Triture a beterraba ralada com o leite. Corte as bananas às rodelas e adicione-as ao batido. Junte também as folhas de hortelã com a geleia/mel. Triture muito bem até obter um preparado homogéneo.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 37,
+            "nome": "Brócolis Rápido e Saboroso",
+            "ingredientes": [
+                "Brocolis",
+                "Bacon",
+                "Queijo"
+            ],
+            "totalIngri": [
+                "1 brócolis chinês",
+                "1 caixinha de creme de leite",
+                "100 g de bacon em cubinhos",
+                "1 colher (chá) de azeite",
+                "100 g de queijo parmesão ralado",
+                "1 pitada se sal"
+            ],
+            "preparo": "Corte em pedaços pequenos e cozinhe o brócolis no vapor (coloque 1 pitada de sal). Enquanto isso frite o bacon no azeite até dourar. Coloque o brocolis cozido no bacon e deixe continuar fritando por aproximadamente 1 minuto. Acrescente o creme de leite, deixe mais 1 minuto e de uma leve misturada, coloque por cima o queijo parmessão, desligue o fogo e deixe abafe a panela até que o queijo derreta.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 38,
+            "nome": "Macarrão Rápido com Calabresa",
+            "ingredientes": ["Calabresa"],
+            "totalIngri": [
+                "1 kg de macarrão tipo penne",
+                "2 calabresas picadas em cubos",
+                "2 tomates se semente",
+                "1 cebola",
+                "2 dentes de alho",
+                "1 caixa de creme de leite",
+                "Salsa e cebolinha verde a gosto",
+                "1 pitada de sal",
+                "1 caldo de carne"
+            ],
+            "preparo": "Cozinhe o macarrão e reserve. Em uma panela refogue o alho com a cebola. Acrescente o tomate, deixe fritar, junte a calabresa e o caldo. Deixe ferver um pouco. Coloque o creme de leite e mexa bem. Junte a cebolinha e a salsa, misture tudo e coloque o macarrão, mexendo para mistura tudo",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 39,
+            "nome": "Sopa de Cebola Rápida",
+            "ingredientes": ["Cebola"],
+            "totalIngri": [
+                "2 colheres de sopa de óleo",
+                "1 cebola bem grande ou duas pequenas em rodelas",
+                "3 tabletes de caldo de carne",
+                "5 copos de água fervendo",
+                "1 colher de sopa bem cheia de maizena",
+                "1 copo de leite",
+                "3 colheres de sopa de queijo parmesão ralado"
+            ],
+            "prepado": "Em uma panela, coloque o óleo deixe esquentar. Junte a cebola em rodelas, deixe fritar, mexendo sempre, sem deixar escurecer. Adicione os tabletes de carne e os 5 copos de água fervendo, deixe cozinhar em fogo brando por aproximadamente 15 minutos. Dissolva a maizena no copo de leite e misture devagar, mexendo sempre. Coloque o queijo parmesão e prove para acertar o sal, se necessário. Quando ferver estará pronta",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 40,
+            "nome": "Suflê de Cenoura",
+            "ingredientes": ["Cenoura"],
+            "totalIngri": [
+                "4 cenouras cozidas e amassadas",
+                "1 colher de margarina",
+                "1 cebola ralada",
+                "1 pitada de sal",
+                "1 copo de leite",
+                "2 colheres de farinha de trigo",
+                "100 g de queijo picado",
+                "3 gemas e claras separadas"
+            ],
+            "prepado": "Cozinhe as cenouras e amasse e reserve. Em uma panela coloque a manteiga, a cebola ralada e deixe fritar. Coloque a farinha dissolvida no leite com as 3 gemas. Coloque na panela e o queijo picado. Deixe engrossar, desligue o fogo e coloque a cenoura amassada. Misture bem e coloque as claras em neve. Coloque em um refratário untado com margarina e coloque no forno para gratinar",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 41,
+            "nome": "Doce de Leite Caseiro",
+            "ingredientes":["Leite"],
+            "totalIngri": [
+                "2 litros de leite",
+                "4 xícaras de açúcar (750 g)"
+            ],
+            "preparo": "Coloque o leite e o açúcar em uma panela grande de fundo largo. Leve ao fogo médio, mexendo sempre com uma colher de pau, até ferver (cerca de 15 minutos). Diminua o fogo e continue mexendo até obter um doce marrom claro de consistência cremosa (cerca de 45 minutos). Passe o doce para um refratário, deixe esfriar bem e sirva às colheradas em pratos de sobremesa com fatias de queijo branco.",
+            "rendimento": "10 porções"
+        },
+        
+        {
+            "id": 42,
+            "nome": "Maionese Ultra Rápida",
+            "ingredientes":["Maionese"],
+            "totalIngri": [
+                "2 ovos crus grandes",
+                "Óleo, o suficiente (cerca de 1 e 1/2 copo)",
+                "Suco de um limão",
+                "1 envelope de tempero do tipo sazón",
+                "1 pitada de sal (1/4 de colher de café)"
+            ],
+            "preparo": "Coloque todos os ingredientes no liquificador, exceto o óleo e ligue e desligue rapidamente o liquidificador 2 ou 3 vezes para uma pré-mistura. Coloque o liquidificador em velocidade máxima e pelo orifício da tampa, despeje o óleo, diretamente da lata, em um fio grosso. A quantia exata vai depender da quantidade da mistura dos ingredientes mas, uma boa dica é observar o momento em que maionese comece a ficar saturada de óleo",
+            "rendimento": "20 porções"
+        },
+        
+        {
+            "id": 43,
+            "nome": "Pão de Mel",
+            "ingredientes": ["Mel"],
+            "totalIngri": [
+                "1 xícara de mel líquido",
+                "1 xícara de açúcar cristal",
+                "1 xícara de leite morno",
+                "4 xícaras de farinha de trigo",
+                "1 colher de sopa de fermento em pó",
+                "1 colherinha de canela em pó",
+                "Chocolate derretido (opcional)"
+            ],
+            "preparo": "Misture o mel, o leite e o açúcar. Acrescente os demais ingredientes peneirados menos o chocolate. Misture tudo muito bem e coloque em forma untada e polvilhada com farinha de trigo. Asse em forno pré-aquecido médio até dourar cerca de 20 minutos. Ao retirar do forno cubra com o chocolate derretido",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 44,
+            "nome": "Creme de Milho",
+            "ingredientes": ["Milho"],
+            "totalIngri": [
+                "1 lata de milho verde escorrida (reserve alguns grãos)",
+                "1 lata de leite",
+                "1 colher de sopa de amido de milho (maisena)",
+                "1 tablete de caldo de galinha",
+                "2 dentes de alho amassados",
+                "1/2 cebola picada",
+                "3 colheres de sopa de Azeite"
+            ],
+            "preparo": "Bata o milho, o leite, o amido de milho e o caldo de galinha no liquidificador. Em uma panela refogue a cebola e o alho no azeite. Incorpore a mistura do liquidificador, mexendo até borbulhar. Retire do fogo e acrescente os grãos inteiros. Sirva a seguir.",
+            "rendimento": "2 porções"
+        },
+        
+        {
+            "id": 45,
+            "nome": "Geléia de Morango",
+            "ingredientes": ["Morango"],
+            "totalIngri": [
+                "1 kg de morango",
+                "1 kg de açucar",
+                "2 colheres (de chá) de suco de limão"
+            ],
+            "preparo": "Coloque na panela e deixe esquentar ao fogo o morango, até soltar líquidos, coloque as duas colheres do suco de limão, despeje o açúcar e deixe cozinhar por meia hora. Espere esfriar e sirva-se",
+            "rendimento": "10 porções"
+        },
+        
+        {
+            "id": 46,
+            "nome": "Bolinhas Rápidas de Mussarela",
+            "ingredientes": ["Mussarela"],
+            "totalIngri": [
+                "500 g de mussarela",
+                "1 ovo",
+                "1 colher e fermento em pó",
+                "1 xícara (chá) de farinha de trigo",
+                "Óleo"
+            ],
+            "preparo": "Rale a mussarela, acrescente o ovo e 1 colher de fermento em pó, mexa. Após adicione 1 xícara de farinha de trigo, mexa. Leve à geladeira por 15 minutos. Faça bolinhas e frite em óleo quente",
+            "rendimento": "20 porções"
+        },
+        
+        {
+            "id": 47,
+            "nome": "Salada Rápida de Pimentão",
+            "ingredientes": ["Pimentao"],
+            "totalIngri": [
+                "1 pimentão verde",
+                "1 pimentão amarelo",
+                "2 tomates",
+                "1/2 lata de milho verde",
+                "5 folhas de alface",
+                "Azeite de oliva",
+                "Suco de meio limão",
+                "1 pitada de sal"
+            ],
+            "preparo": "Corte os pimentões e os tomates em quadrados médios, tirando as sementes e os talos dos pimentões. Misture com o milho, temperando com o azeite, vinagre e sal a gosto. No prato onde a salada será servida, coloque as folhas de alface e depois coloque cuidadosamente a mistura sobre as folhas. Se quiser deixar bem bonito, corte tomates-cereja ao meio e deixe nos cantos do prato",
+            "rendimento": "6 porções"
+        },
+        
+        {
+            "id": 48,
+            "nome": "Rabanada",
+            "ingredientes": ["Pao"],
+            "totalIngri": [
+                "200g de pão francês",
+                "250ml de leite de coco adoçado, se possível fresco.",
+                "4 gemas batidas",
+                "Açúcar com canela para polvilhar"
+            ],
+            "preparo": "Corte os pães dormidos em fatias finas. Embeba-as no leite previamente adoçado. Passe cada fatia de pão nas gemas batidas. Frite as em óleo quente até dourá-las. Arrume-as numa travessa e polvilhe com o açúcar e canela.",
+            "rendimento": "3 porções"
+        },
+        
+        {
+            "id": 49,
+            "nome": "Bolinhas de Queijo",
+            "ingredientes": ["Queijo"],
+            "totalIngri": [
+                "200g de queijo parmesão tipo faixa azul ralado grosso",
+                "3 colheres (sopa) de farinha de trigo",
+                "1 ovo",
+                "1 colher (sopa) de manteiga",
+                "Farinha de rosca ou de trigo para empanar",
+                "Óleo para fritar"
+            ],
+            "preparo": "Numa tigela, misture bem todos os ingredientes. Modele as bolinhas. Passe-as ligeiramente em farinha de rosca ou de trigo. Aqueça bem o óleo, frite as bolinhas e sirva em seguida.",
+            "rendimento": "10 unidades"
+        },
+        
+        {
+            "id": 50,
+            "nome": "Tortilhas de Batata com Requeijão",
+            "ingredientes": ["Requeijao"],
+            "totalIngri": [
+                "4 batatas pequenas",
+                "2 colheres (sopa) de mussarela ralada",
+                "Sal a gosto",
+                "1 colher (sobremesa) de salsa picada",
+                "4 colheres (sopa) de requeijão"
+            ],
+            "preparo": "Cozinhe as batatas na água durante sete minutos após levantar fervura. Escorra, deixe esfriar e rale na parte grossa do ralador. Misture a batata, a mussarela, o sal e a salsa. Em uma frigideira pequena antiaderente e levemente untada ponha uma porção da mistura. Com uma espátula molde-a bem na frigideira e no fogo brando doure dos dois lados. Repita o processo com o restante da mistura. Sobre cada disco ponha uma porção de requeijão, dobre e sirva em seguida.",
+            "rendimento": "4 porções"
+        },
+        
+        {
+            "id": 51,
+            "nome": "Omelete de Rúcula",
+            "ingredientes": ["Rucula"],
+            "totalIngri": [
+                "3 ovos",
+                "3 colheres (sopa) de leite",
+                "1/2 xícara de rúcula",
+                "1/3 xícara de queijo ralado",
+                "1/2 colher (chá) de pimenta-do-reino",
+                "Sal a gosto"
+            ],
+            "preparo": "Bata os ovos com o leite e o sal até ficar bem leve. Esquente um pouco de óleo numa frigideira e despeje o ovo batido. Doure o omelete de um lado, vire, coloque a rúcula e o queijo no meio, tempere com sal e pimenta e deixe o queijo derreter. Sirva em seguida.",
+            "rendimento": "1 porção"
+        },
+        
+        {
+            "id": 52,
+            "nome": "Mini Folhados de Salsicha",
+            "ingredientes": ["Salsicha"],
+            "totalIngri": [
+                "2 embalagens de massa folhada",
+                "Salsichas",
+                "Ketchup"
+            ],
+            "preparo": "Desenrole a massa e corte em tiras com cerca de dois dedos de largura, e um de altura. Corte cada salsicha em 3 partes iguais. Depois foi só enrolar uma a uma. Por num tabuleiro, com o papel vegetal que já vem com a massa folhada, e leve ao forno a 180º até dourarem. Servir com ketchup.",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 53,
+            "nome": "Patê de Sardinha",
+            "ingredientes": ["Sardinha"],
+            "totalIngri": [
+                "1 sachê de maionese (200 g)",
+                "1 lata de sardinha tradicional (sem molho de tomate)",
+                "Coentro em folhas e cebolinha a gosto",
+            ],
+            "preparo": "Junte todos os ingredientes e bata no liquidificador até obter uma mistura homogênea. Dica: Sirva com torradas. É uma delícia e muito fácil de fazer",
+            "rendimento": "15 porções"
+        },
+        
+        {
+            "id": 54,
+            "nome": "Sanduíche de Biscoito com Sorvete",
+            "ingredientes": ["Sorvete"],
+            "totalIngri": [
+                "16 biscoitos tipo cookies de chocolate",
+                "1 pote de sorvete de creme ou de baunilha"
+            ],
+            "preparo": "Deixe o sorvete fora do freezer por uns 10 minutos ou até que fique maleável. Coloque meia bola de sorvete entre dois biscoitos, aperte ligeiramente e coloque em um prato no freezer. Repita a operação com os biscoitos restantes. Sirva as cookies geladas com um pouco de calda de chocolate.",
+            "rendimento": "8 porções"
+        },
+        
+        {
+            "id": 55,
+            "nome": "Sopa de Tomate Fácil",
+            "ingredientes": ["Tomate"],
+            "totalIngri": [
+                "½ cebola grande picada",
+                "Azeite",
+                "1kg de tomates bem maduros cortados ao meio",
+                "500ml de água",
+                "4 folhas pequenas de manjericão ou manjerona (pode ser manjericão seco de saquinho se não tiver fresco)",
+                "1 folha de louro",
+                "2 colheres de chá de sal (ou a gosto"
+            ],
+            "preparo": "Em fogo médio, refogue a cebola no azeite até murchar e ficar mais transparente. Acrescente os tomates cortados, a água, as folhas de manjericão/manjerona e louro e o sal. Ainda em fogo médio, conte 20 minutos após levantar fervura. Desligue o fogo, deixe esfriar (essa parte é muito importante! Eu tentei bater no liquidificador ainda quente e... imagine o desastre), tire o louro (bater a sopa com a folha de louro pode deixá-la amarga) e bata no liquidificador. Passe a sopa por uma peneira fina e volte à panela em fogo médio. Acerte o sal (eu acrescentei mais uma colher de chá rasa de sal), mexa até levantar fervura e está pronta!",
+            "rendimento": "2 a 3 porções"
+        },
+        
+        {
+            "id": 56,
+            "nome": "Vagem Refogada",
+            "ingredientes": ["Vagem"],
+            "totalIngri": [
+                "250 g de vagem bem frescas",
+                "2 dentes de alho picados",
+                "1,5 colher (sopa) de azeite",
+                "1 cebola média picada",
+                "1/2 colher (chá) de sal",
+                "1 xícara de água quente",
+                "Pimenta a gosto"
+            ],
+            "preparo": "Lave bem as vagens e tire as pontinhas. Corte em pedaços de 3 centímetros e reserve. Numa frigideira, refogue o alho no azeite até dourar. Junte a cebola e refogue até murchar. Junte a vagem, a pimenta e o sal e mexa por 1 minuto. Junte a água e deixe cozinhar até a água secar e a vagem ficar macia. Se precisar, junte mais água quente e sal.",
+            "rendimento": "3 porções"
+        }
+    ]
+}
