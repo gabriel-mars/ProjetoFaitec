@@ -896,6 +896,7 @@ var listaReceita = {
         
         {
             "id": 49,
+            "nome": "Bolinhas de Queijo",
             "ingredientes": ["Queijo"],
             "totalIngri": [
                 "200g de queijo parmesão tipo faixa azul ralado grosso",
