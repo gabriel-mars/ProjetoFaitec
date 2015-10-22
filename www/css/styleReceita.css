@@ -66,6 +66,7 @@ p{
 .botao{
  font-family: 'boogalooregular';
  font-size: 20px;
+ margin-bottom: 30px;
 }
 .cor{
   background: #DF0001;

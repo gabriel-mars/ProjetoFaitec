@@ -198,5 +198,8 @@ input[type="checkbox"]:checked + label:before {
     content: "\2714";
     font-size: 14px;
     color: #99a1a7;
-    background-color:aliceblue
+    background-color:aliceblue;
+}
+.olTamanho{
+   height: 100px;
 }
