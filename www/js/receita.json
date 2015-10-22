@@ -239,6 +239,7 @@ var listaReceita = {
                 "Sal"
             ],
             "preparo": "Frite a banana da terra picada em cubinhos, até ficarem douradas, e reserve em papel absorvente. Doure a cebola, o alho, bacon e pitadas de pimenta e sal com manteiga e acrescente a banana frita. Doure mais um pouco, desligue o fogo, acrescente a farinha devagar mistura e por fim o cheiro verde. Sirva em seguida.",
+            "rendimento": "4 porções"
         },
         
         {
@@ -751,7 +752,7 @@ var listaReceita = {
                 "1 copo de leite",
                 "3 colheres de sopa de queijo parmesão ralado"
             ],
-            "prepado": "Em uma panela, coloque o óleo deixe esquentar. Junte a cebola em rodelas, deixe fritar, mexendo sempre, sem deixar escurecer. Adicione os tabletes de carne e os 5 copos de água fervendo, deixe cozinhar em fogo brando por aproximadamente 15 minutos. Dissolva a maizena no copo de leite e misture devagar, mexendo sempre. Coloque o queijo parmesão e prove para acertar o sal, se necessário. Quando ferver estará pronta",
+            "preparo": "Em uma panela, coloque o óleo deixe esquentar. Junte a cebola em rodelas, deixe fritar, mexendo sempre, sem deixar escurecer. Adicione os tabletes de carne e os 5 copos de água fervendo, deixe cozinhar em fogo brando por aproximadamente 15 minutos. Dissolva a maizena no copo de leite e misture devagar, mexendo sempre. Coloque o queijo parmesão e prove para acertar o sal, se necessário. Quando ferver estará pronta",
             "rendimento": "4 porções"
         },
         
@@ -769,7 +770,7 @@ var listaReceita = {
                 "100 g de queijo picado",
                 "3 gemas e claras separadas"
             ],
-            "prepado": "Cozinhe as cenouras e amasse e reserve. Em uma panela coloque a manteiga, a cebola ralada e deixe fritar. Coloque a farinha dissolvida no leite com as 3 gemas. Coloque na panela e o queijo picado. Deixe engrossar, desligue o fogo e coloque a cenoura amassada. Misture bem e coloque as claras em neve. Coloque em um refratário untado com margarina e coloque no forno para gratinar",
+            "preparo": "Cozinhe as cenouras e amasse e reserve. Em uma panela coloque a manteiga, a cebola ralada e deixe fritar. Coloque a farinha dissolvida no leite com as 3 gemas. Coloque na panela e o queijo picado. Deixe engrossar, desligue o fogo e coloque a cenoura amassada. Misture bem e coloque as claras em neve. Coloque em um refratário untado com margarina e coloque no forno para gratinar",
             "rendimento": "6 porções"
         },
         
