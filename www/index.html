@@ -1,0 +1,102 @@
+<!Doctype HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, minimun-scale=1, width=device-width, height=device-height" />
+        <link type="text/css" rel="stylesheet" href="lib/CSS/alertify.default.css" />
+        <link type="text/css" rel="stylesheet" href="lib/CSS/alertify.core.css" />
+        <link type="text/css" rel="stylesheet" href="lib/CSS/bootstrap.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>Receitas Rápidas</title>
+    </head>
+    
+    <body ng-controller="controller">
+        <nav class="navbar navbar-inverse navbar-fixed-top cor" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <span class="tituloTopo"><a class="brand-logo" href="index.html">Receitas Rápidas</a></span>
+                    <button type="button" class="navbar-toggle bordaMenu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms and others contents for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="sobre.html">Sobre o Projeto</a>
+                        </li>
+                        <li>
+                            <a href="last.html">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->               
+            </div>
+        </nav>
+        <div class="flow-text">
+            <p class="p1">Marque os ingredientes que você tem e escolha sua receita para o cardápio de hoje!</p>
+            <div class="section" id="check">
+                <div class="col1">
+                    <ul class="styleUL">
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Acelga" name="ingrediente" id="ingrediente1"><label for="ingrediente1">Acelga</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Agriao" name="ingrediente" id="ingrediente2"><label for="ingrediente2">Agrião</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Alface" name="ingrediente" id="ingrediente3"><label for="ingrediente3">Alface</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Atum" name="ingrediente" id="ingrediente4"><label for="ingrediente4">Atum</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Aveia" name="ingrediente" id="ingrediente5"><label for="ingrediente5">Aveia</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Azeitona" name="ingrediente" id="ingrediente6"><label for="ingrediente6">Azeitona</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Bacon" name="ingrediente" id="ingrediente7"><label for="ingrediente7">Bacon</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Banana" name="ingrediente" id="ingrediente8"><label for="ingrediente8">Banana</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Batata" name="ingrediente" id="ingrediente9"><label for="ingrediente9">Batata</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Berinjela" name="ingrediente" id="ingrediente10"><label for="ingrediente10">Berinjela</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Beterraba" name="ingrediente" id="ingrediente11"><label for="ingrediente11">Beterraba</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Brocolis" name="ingrediente" id="ingrediente12"><label for="ingrediente12">Brócolis</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Calabresa" name="ingrediente" id="ingrediente13"><label for="ingrediente13">Calabresa</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Cebola" name="ingrediente" id="ingrediente14"><label for="ingrediente14">Cebola</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Cenoura" name="ingrediente" id="ingrediente15"><label for="ingrediente15">Cenoura</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Couve" name="ingrediente" id="ingrediente16"><label for="ingrediente16">Couve - Flor</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Leite" name="ingrediente" id="ingrediente17"><label for="ingrediente17">Leite</label></li>
+                    </ul>
+                </div>
+                
+                <div class="col2">
+                    <ul class="styleUL">
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Limao" name="ingrediente" id="ingrediente18"><label for="ingrediente18">Limão</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Maionese" name="ingrediente" id="ingrediente19"><label for="ingrediente19">Maionese</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Mel" name="ingrediente" id="ingrediente20"><label for="ingrediente20">Mel</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Milho" name="ingrediente" id="ingrediente21"><label for="ingrediente21">Milho</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Morango" name="ingrediente" id="ingrediente22"><label for="ingrediente22">Morango</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Mussarela" name="ingrediente" id="ingrediente23"><label for="ingrediente23">Mussarela</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Ovo" name="ingrediente" id="ingrediente24"><label for="ingrediente24">Ovo</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Pimentao" name="ingrediente" id="ingrediente26"><label for="ingrediente26">Pimentão</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Pao" name="ingrediente" id="ingrediente27"><label for="ingrediente27">Pão</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Queijo" name="ingrediente" id="ingrediente28"><label for="ingrediente28">Queijo</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Requeijao" name="ingrediente" id="ingrediente29"><label for="ingrediente29">Requeijão</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Rucula" name="ingrediente" id="ingrediente30"><label for="ingrediente30">Rúcula</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Salsicha" name="ingrediente" id="ingrediente31"><label for="ingrediente31">Salsicha</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Sardinha" name="ingrediente" id="ingrediente32"><label for="ingrediente32">Sardinha</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Sorvete" name="ingrediente" id="ingrediente33"><label for="ingrediente33">Sorvete</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Tomate" name="ingrediente" id="ingrediente34"><label for="ingrediente34">Tomate</label></li>
+                        <li class="font-input"><input style=" margin-right:10px;" type="checkbox" value="Vagem" name="ingrediente" id="ingrediente35"><label for="ingrediente35">Vagem</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-botao">
+                <p id="buscar"><button id="search_button" class="btn btn-large btn-block">Buscar Receitas</button></p>
+            </div>
+            <p>Receitas encontradas:</p>
+            <ol id="ol" class="olReceita olTamanho"></ol>
+        </div>
+        
+        <!-- JS imports -->
+        <!-- App specific imports -->
+        <script type="text/javascript" src="lib/JS/jquery.js"></script>
+        <script type="text/javascript" src="lib/JS/alertify.min.js"></script>
+        <script type="text/javascript" src="lib/JS/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/receita.json"></script>
+    </body>
+</html>
